@@ -1,21 +1,78 @@
+/* embed the fonts  */
+@font-face {
+  font-family: 'SportingGrotesque';
+  src: url('../fonts/subset-SportingGrotesque-Bold.woff2') format('woff2'),
+      url('../fonts/subset-SportingGrotesque-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SportingGrotesque';
+  src: url('../fonts/subset-SportingGrotesque-Regular.woff2') format('woff2'),
+      url('../fonts/subset-SportingGrotesque-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
 }
 
-
 body {
   margin: 0;
+  background-color: #000000;
+
+  font-family: 'SportingGrotesque', sans-serif;
+  font-size: 15px;
+}
+
+h1, h2, p, a  {
+  color: #FFFFFF; 
+}
+
+a {
+  text-decoration: none;
 }
 
 .menu {
-  height: 50px;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  margin: 20px 40px;
+  height: 70px;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
 .menu a {
+  width: 200px;
+  font-size: 15px;
   text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+.personal-info {
+  margin-left: 40px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.personal-info-text {
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+h2 {
+  font-size: 15px;
 }

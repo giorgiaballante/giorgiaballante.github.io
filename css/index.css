@@ -27,12 +27,17 @@ body {
   font-size: 15px;
 }
 
-h1, h2, p, a  {
+h1, h2, h3, p, a  {
   color: #FFFFFF; 
 }
 
 a {
   text-decoration: none;
+}
+
+h2 {
+  font-size: 15px;
+  text-transform: uppercase;
 }
 
 .menu {
@@ -60,19 +65,164 @@ a {
 
 h1 {
   font-size: 50px;
+  margin-top: 150px;
+  margin-bottom: 0;
 }
 
 .personal-info-text {
   font-size: 25px;
   font-weight: normal;
   font-style: normal;
+
   margin: 0;
 }
 
-.skills {
+.skills{
   margin-top: 100px;
 }
 
-h2 {
-  font-size: 15px;
+.skills h2 {
+  padding-bottom: 20px;
+  margin-left: 40px;
+}
+
+h3 {
+  font-size: 45px;
+  text-transform: uppercase;
+  line-height: 55px;
+}
+
+.skill-text {
+  font-size: 45px;
+  text-transform: uppercase;
+  border-top: 1px solid #FFFFFF;
+
+  padding-top: 8px;
+  margin-right: 40px;
+
+  display: block;
+}
+
+.three {
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.menu-section {
+ margin: 40px;
+}
+
+.works-selection {
+  margin-top: 150px;
+}
+
+/* work 1 - wanderlust museum */
+.work-1 {
+  width: 100%;
+  margin: 0;
+  height: 666px;
+  background-color: #0441F4;
+
+  display: flex;
+}
+
+.wanderlust-img {
+  width: 700px;
+  margin-top: 50px;
+  margin-right: 40px;
+}
+
+.project-1-img {
+  position: relative;
+}
+
+.view-project {
+  position: absolute;
+  margin-top: 300px;
+}
+
+.project-1-info, .project-1-img {
+  margin-left: 40px;
+}
+
+/* work 2 - ultralight beam  */
+.work-2 {
+  margin-top: 40px;
+
+  display: flex;
+}
+.project-2-img {
+  background-color: #FFFFFF;
+  width: 700px;
+  margin-left: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ultralight-img {
+  width: 400px;
+}
+
+.project-2-info {
+  margin-left: 40px;
+}
+
+/* work 3 - the fork redesign */
+.work-3 {
+  width: 100%;
+  margin: 40px 0;
+  height: 666px;
+  background-color: #1CF490;
+
+  display: flex;
+
+  position: relative;
+}
+
+.project-3-info {
+  margin-left: 40px;
+}
+
+.project-3-info h3 {
+  color: #773DD4;
+}
+
+.project-3-info p {
+  color: #773DD4;
+}
+.the-fork-img2 {
+  height: 600px;
+}
+
+.the-fork-img1 {
+  width: 300px;
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+/* contacts */
+.contact-name {
+  height: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+  text-transform: uppercase;
+  font-size: 20px;
+
+  border-top: 1px solid #FFFFFF;
+
+  display: flex;
+  align-items: center;
+}
+
+.contact-name-3 {
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.contact-info {
+  text-transform: lowercase;
+  font-size: 40px;
+  margin-left: 300px;
 }

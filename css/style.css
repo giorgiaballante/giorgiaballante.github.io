@@ -27,21 +27,16 @@ body {
   font-size: 15px;
 }
 
-h1, h2, h3, p, a  {
-  color: #FFFFFF; 
+h1, h2, h3, p, a {
+  color: #FFFFFF;
 }
 
 a {
   text-decoration: none;
 }
 
-h2 {
-  font-size: 15px;
-  text-transform: uppercase;
-}
-
 .menu {
-  margin: 20px 40px;
+  margin: 2em 4em;
   height: 70px;
   border-top: 1px solid #FFFFFF;
   border-bottom: 1px solid #FFFFFF;
@@ -56,11 +51,23 @@ h2 {
   font-size: 15px;
   text-transform: uppercase;
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
+}
+/* fine degli elementi ricorrenti */
+/* --------------- */
+
+/* section name */
+.home-section, .home-section a {
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-left: 4em;
+  margin-top: 10em;
+  color: #FFFFFF;
 }
 
+/* skills */
 .personal-info {
-  margin-left: 40px;
+  margin-left: 4em;
 }
 
 h1 {
@@ -70,6 +77,7 @@ h1 {
 }
 
 .personal-info-text {
+  color: #FFFFFF;
   font-size: 25px;
   font-weight: normal;
   font-style: normal;
@@ -77,120 +85,107 @@ h1 {
   margin: 0;
 }
 
-.skills{
-  margin-top: 100px;
-}
-
-.skills h2 {
-  padding-bottom: 20px;
-  margin-left: 40px;
-}
-
 h3 {
-  font-size: 45px;
+  font-size: 65px;
   text-transform: uppercase;
-  line-height: 55px;
+  line-height: 70px;
+
+}
+
+.skills-list {
+  margin-left: 4em;
+  margin-right: 4em;
 }
 
 .skill-text {
+  color: #FFFFFF;
   font-size: 45px;
   text-transform: uppercase;
   border-top: 1px solid #FFFFFF;
 
   padding-top: 8px;
-  margin-right: 40px;
+  margin-left: -1em;
 
   display: block;
 }
 
-.three {
+.skill-text-uiux {
   border-bottom: 1px solid #FFFFFF;
 }
 
-.menu-section {
- margin: 40px;
-}
+/* works */
 
-.works-selection {
-  margin-top: 150px;
-}
-
-/* work 1 - wanderlust museum */
-.work-1 {
-  width: 100%;
+.work {
   margin: 0;
   height: 666px;
-  background-color: #0441F4;
 
   display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+.project-info {
+  height: 666px;
+  margin-left: 4em;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.view-project {
+  width: 240px;
+  background-image: url(../images/icons/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right; 
+}
+
+.project-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+}
+
+/* wanderlust museum */
+.work-wanderlust {
+  background-color: #0441F4;
+  height: 750px;
+}
+
+.work-wanderlust h3, a, p {
+  color: #000000;
 }
 
 .wanderlust-img {
   width: 700px;
-  margin-top: 50px;
-  margin-right: 40px;
+  margin-right: 4em;
+  margin-left: 8em;
 }
 
-.project-1-img {
-  position: relative;
-}
-
-.view-project {
-  position: absolute;
-  margin-top: 300px;
-}
-
-.project-1-info, .project-1-img {
-  margin-left: 40px;
-}
 
 /* work 2 - ultralight beam  */
-.work-2 {
-  margin-top: 40px;
-
-  display: flex;
-}
-.project-2-img {
-  background-color: #FFFFFF;
-  width: 700px;
-  margin-left: 40px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .ultralight-img {
   width: 400px;
 }
 
-.project-2-info {
-  margin-left: 40px;
+.project-img-ultralight {
+  background-color: #FFFFFF;
+  width: 900px;
+  margin-left: 4em;
+  margin-top: 4em;
 }
 
+
 /* work 3 - the fork redesign */
-.work-3 {
+.work:last-child {
   width: 100%;
-  margin: 40px 0;
+  margin: 4em 0;
   height: 666px;
   background-color: #1CF490;
 
   display: flex;
-
-  position: relative;
 }
 
-.project-3-info {
-  margin-left: 40px;
-}
-
-.project-3-info h3 {
-  color: #773DD4;
-}
-
-.project-3-info p {
-  color: #773DD4;
-}
 .the-fork-img2 {
   height: 600px;
 }
@@ -205,8 +200,8 @@ h3 {
 /* contacts */
 .contact-name {
   height: 100px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 4em;
+  margin-right: 4em;
 
   text-transform: uppercase;
   font-size: 20px;
@@ -215,6 +210,10 @@ h3 {
 
   display: flex;
   align-items: center;
+}
+
+.home-section a {
+  margin-left: 0;
 }
 
 .contact-name-3 {

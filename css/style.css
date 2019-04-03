@@ -156,8 +156,8 @@ h3 {
   color: #000000;
 }
 
-.wanderlust-img {
-  width: 700px;
+.wanderlust-img-home {
+  width: 600px;
   margin-right: 4em;
   margin-left: 8em;
 }
@@ -205,6 +205,7 @@ h3 {
 
   text-transform: uppercase;
   font-size: 20px;
+  color: #FFFFFF;
 
   border-top: 1px solid #FFFFFF;
 
@@ -214,14 +215,133 @@ h3 {
 
 .home-section a {
   margin-left: 0;
+  color: #FFFFFF;
 }
 
 .contact-name-3 {
   border-bottom: 1px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+.contact-name a {
+  color: #FFFFFF;
 }
 
 .contact-info {
   text-transform: lowercase;
   font-size: 40px;
   margin-left: 300px;
+}
+
+
+
+/* --------------------------------------------- */
+/* WANDERLUST PROJECT PAGE */
+/* -------------------------------------------------- */
+.wanderlust-logo {
+  width: 100%;
+}
+
+.description-wanderlust {
+  color: #0041FF;
+  font-size: 45px;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.project-introduction {
+  background-color: #0041FF;
+}
+
+.wanderlust-title {
+  text-transform: uppercase;
+  margin-left: 1.5em;
+  padding-top: 50px;
+  font-size: 60px;
+}
+
+.wanderlust-subtitle {
+  margin-left: 3.8em;
+  margin-top: -10px;
+  color: #FFFFFF;
+  font-size: 25px;
+}
+
+.wand-img-poster-1 {
+  width: 800px;
+  margin-left: 3.5em;
+}
+
+.wand-img-businesscard-project-pg {
+  width: 850px;
+  float: right;
+  margin-right: 4em;
+  margin-top: -650px;
+}
+
+.icon-wand-title {
+  float: right;
+  clear: both;
+  margin-right: 4em;
+  margin-top: 40px;
+  
+  text-transform: uppercase;
+
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  padding-right: 670px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.wand-img-icons {
+  width: 500px;
+  margin-left: 250px;
+  margin-top: 120px;
+  padding-bottom: 60px;
+}
+
+.wand-img-identity {
+  width: 100%;
+}
+
+.wand-pattern-title {
+  width: 500px;
+  margin-left: 4em;
+  text-transform: uppercase;
+
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.wand-img-pattern-white {
+  width: 90%;
+  margin-left: 6em;
+}
+
+.wand-img-pattern-white {
+  width: 90%;
+  margin-left: 6em;
+}
+
+/* info project */
+/* ---- maybe for every project ??? */
+.info-project-title {
+  color: #FFFFFF;
+  text-transform: uppercase;
+
+  border-top: 1px solid #FFFFFF;
+  padding-top: 30px;
+  font-size: 20px;
+
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.info-project-description {
+  margin-left: 300px;
+  text-transform: lowercase;
+  font-size: 60px;
 }

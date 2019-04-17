@@ -109,6 +109,82 @@ h3 {
   display: block;
 }
 
+a.skill-text-visual, a.skill-text-uiux {
+  position: relative;
+  animation-duration: 4000ms;
+  animation-delay: 500ms;
+  animation-timing-function: linear;
+  animation-name: scrittaInfinite;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scrittaInfinite {
+  0% {
+    color: #ff0000;
+  }
+
+  25% {
+    right: 0;
+    color: #ff0099;
+  }
+
+  50% {
+    right: 300px;
+    color: #3700ff;
+  }
+
+  75% {
+    right: 900px;
+    color: #2bff00;
+  }
+  /* the ending point of the animation as 100% or to */
+  100% {
+    right: 1200px;
+    top: 0px;
+    color: #ffff00;
+  }
+
+}
+
+a.skill-text-editorial {
+  position: relative;
+  animation-duration: 8000ms;
+  animation-delay: 0;
+  animation-timing-function: linear;
+  animation-name: scrittaInfiniteDestra;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scrittaInfiniteDestra {
+  0% {
+    color: #ff0000;
+  }
+
+  25% {
+    left: 0;
+    color: #ff0099;
+  }
+
+  50% {
+    left: 300px;
+    color: #3700ff;
+  }
+
+  75% {
+    left: 900px;
+    color: #2bff00;
+  }
+  /* the ending point of the animation as 100% or to */
+  100% {
+    left: 1200px;
+    color: #ffff00;
+  }
+
+}
+
+
 .skill-text-uiux {
   border-bottom: 1px solid #FFFFFF;
 }
@@ -344,4 +420,153 @@ h3 {
   margin-left: 300px;
   text-transform: lowercase;
   font-size: 60px;
+}
+
+
+/* ------------------- */
+/* ULTRALIGHT BEAM PROJECT */
+/* --------------------- */
+
+.ultralight-body {
+  background-color: #ffffff;
+}
+
+.ultralight-container {
+  background-color: white;
+}
+
+.ultralight-menu {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+a.ultra-menu-color {
+  color: #000000;
+  background-color: white;
+}
+
+.ultralight-title, .ultralight-subtitle {
+  color: #000000; 
+}
+
+.project-title {
+  text-transform: uppercase;
+  margin-left: 1.5em;
+  padding-top: 50px;
+  font-size: 60px;
+}
+
+.project-subtitle {
+  margin-left: 3.8em;
+  margin-top: -10px;
+  font-size: 25px;
+}
+
+.ultralight-introduction {
+  background-color: #FFFFFF;
+}
+
+.ultra-cover {
+  float: right;
+  width: 50%;
+  background-color: #FFFFFF; 
+}
+
+.description-ultralight {
+  color: #FFFFFF;
+  font-size: 45px;
+  margin-left: 2em;
+  margin-right: 2em;
+  float: left;
+}
+
+.ultra-inside-1 {
+  background-color: #000000;
+}
+
+.ultralight-img-1 {
+  width: 70%;
+  float: right;
+}
+
+.ultralight-img-2 {
+  width: 70%;
+  z-index: 1;
+  margin-top: -400px;
+}
+
+.ultralight-img-collage-1 {
+  width: 90%;
+  margin-left: 100px;
+  margin-top: 8em;
+}
+
+.ultra-inside-2 {
+  background-color: #000000;
+  margin-top: 8em;
+}
+
+.ultralight-img-verde {
+  float: left;
+  width: 60%;
+}
+
+.ultralight-img-repeat {
+  width: 60%;
+  float: right;
+}
+
+.ultralight-img-repeat-2 {
+  width: 60%;
+  float: left;
+  margin-top: -300px;
+}
+
+.ultralight-img-collage-2 {
+  width: 50%;
+  margin-top: 8em;
+  margin-left: 400px;
+}
+
+.ultralight-img-big-photo {
+  width: 90%;
+  background-color: black;
+}
+
+.info-ultralight {
+  background-color: black;
+}
+
+.info-ultralight-1 {
+  display: flex;
+  border-bottom: 1px solid #ffffff;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.info-title-ultralight {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+
+li {
+  color: #FFFFFF;
+  font-size: 50px;
+}
+
+ul {
+list-style-type: none;
+}
+
+
+
+/* -------------------------------------- */
+/* --- DIECI MARI DI RIMINI */
+/* ------------------------------------------- */
+
+.diecimari-cover {
+  width: 50%;
+  float: right;
+  margin-right: 40px;
 }

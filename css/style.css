@@ -556,7 +556,7 @@ li {
 }
 
 ul {
-list-style-type: none;
+  list-style-type: none;
 }
 
 
@@ -565,8 +565,97 @@ list-style-type: none;
 /* --- DIECI MARI DI RIMINI */
 /* ------------------------------------------- */
 
+a.diecimari-menu-color {
+  color: #F7CD45;
+}
+
 .diecimari-cover {
   width: 50%;
   float: right;
   margin-right: 40px;
+}
+
+.subtitle-diecimari {
+  color: #FFFFFF;
+}
+
+.description-dieci {
+  color: #F7CD45;
+  font-size: 45px;
+  margin-left: 2em;
+  margin-right: 2em;
+  float: left;
+}
+
+.diecimari-photo1 {
+  background-color: #F7CD45;
+  width: 100%;
+}
+
+.diecimari-photo2 {
+  width: 50%;
+  z-index: 1;
+}
+
+.diecimari-photo3 {
+  width: 70%;
+  margin-top: -300px;
+  margin-left: 450px;
+}
+
+.diecimari-photo4 {
+  width: 100%;
+}
+
+.diecimari-poster1 {
+  width: 100%;
+}
+
+.diecimari-poster2 {
+  width: 70%;
+  float: right;
+  margin-right: 4em;
+  margin-top: 60px;
+}
+
+.diecimari-poster3 {
+  width: 50%;
+  margin-top: -700px;
+  margin-left: 4em;
+}
+
+.diecimari-poster4 {
+  width: 40%;
+  margin-top: -200px;
+  margin-left: -100px;
+}
+
+.info-diecimari {
+  float: left;
+}
+
+
+/* -------------------------------------- */
+/* --- CONTACTS */
+/* ------------------------------------------- */
+
+.contact-coffee {
+  font-size: 60px;
+  margin-left: 1em;
+}
+.contact-photo {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-photo-contact {
+  width: 40%;
+}
+
+.contact-drink {
+  color: #000000;
+  font-size: 60px;
+  align-self: flex-end;
 }

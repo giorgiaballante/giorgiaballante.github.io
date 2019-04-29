@@ -719,9 +719,10 @@ a.pointe-menu-color {
   margin-right: 1em;
 }
 
-.background-pointe-screen-1 {
+.background-pointe-screen-1, .background-pointe-screen-2 {
   color: #FF005C;
   height: 700px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -743,4 +744,165 @@ a.pointe-menu-color {
 
 .pointe-exercise-img-1 {
   width: 70%;
+}
+
+.pointe-choose-movement-img {
+  width: 60%;
+  align-self: flex-start;
+}
+
+.pointe-position-img {
+  width: 40%;
+  align-self: flex-end;
+  margin-right: 150px;
+}
+
+.pointe-project-title {
+  width: 40%;
+  margin-left: 4em;
+  margin-top: 200px;
+  text-transform: uppercase;
+
+  color: #FF005C;
+
+  border-top: 1px solid #FF005C;
+  border-bottom: 1px solid #FF005C;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.proiezione-1-pointe, .proiezione-2-pointe, .proiezione-3-pointe {
+  width: 40%;
+}
+
+.proiezione-1-pointe, .proiezione-3-pointe {
+  float: right;
+  margin-right: 4em;
+}
+
+.proiezione-2-pointe {
+  margin-left: 4em;
+}
+
+.pointe-icon-title {
+  width: 40%;
+  margin-left: 4em;
+  margin-top: 200px;
+  text-transform: uppercase;
+
+  color: #FF005C;
+
+  border-top: 1px solid #FF005C;
+  border-bottom: 1px solid #FF005C;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+/* -------------------------------------- */
+/* --- PILLS */
+/* ------------------------------------------- */
+
+a.pills-menu-color {
+  color: #000000;
+}
+
+.background-pills-color {
+  background-color: #E83F4E;
+  margin-top: -150px;
+  height: 1000px;
+}
+
+.pills-logo-img {
+  margin-top: -1000px;
+  margin-left: 10em;
+  width: 70%;
+}
+
+.subtitle-pills {
+  color: #FFFFFF;
+}
+
+.description-pills {
+  color: #E83F4E;
+  font-size: 45px;
+  margin-left: 2em;
+  margin-right: 2em;
+  float: left;
+}
+
+.pills-img-1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  float: left;
+  margin-left: 4em;
+}
+
+.pills-indice-img, .pills-restaurant-name-img {
+  align-self: center;
+  width: 650px;
+}
+
+.pills-restaurant-name-img {
+  width: 1000px;
+  margin-left: 2em;
+}
+
+.pills-restaurant-article-img {
+  width: 90%;
+  margin-top: 50px;
+  margin-left: 4em;
+}
+
+.pills-illusration {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 40px;
+}
+
+.pills-bologna-illustration-img {
+  width: 600px;
+  align-self: center;
+}
+
+.pills-venezia-illustration-img {
+  width: 400px;
+  align-self: center;
+  margin-left: 2em;
+}
+
+.pills-page-photo-img, .pills-photos {
+  width: 93%;
+  margin-left: 4em;
+  margin-top: 50px;
+}
+
+
+/* -------------------------------------- */
+/* --- THE FORK */
+/* ------------------------------------------- */
+
+a.thefork-menu-color {
+  color: #773DD4;
+}
+
+.background-thefork-color {
+  background-color: #1CF490;
+  margin-top: -150px;
+  height: 1000px;
+}
+
+.thefork-introduction {
+  margin-top: -1000px;
+}
+
+.title-thefork, .subtitle-thefork {
+  color: #773DD4;
+}
+
+.img-the-fork-introduction {
+  display: flex;
+  
 }

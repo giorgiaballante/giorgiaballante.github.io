@@ -659,3 +659,88 @@ a.diecimari-menu-color {
   font-size: 60px;
   align-self: flex-end;
 }
+
+
+/* -------------------------------------- */
+/* --- POINTE */
+/* ------------------------------------------- */
+
+a.pointe-menu-color {
+  color: #FF005C;
+}
+
+.pointe-img-1 {
+  width: 90%;
+  align-self: center;
+}
+
+.img-1-pointe {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.description-pointe {
+  color: #FF005C;
+  font-size: 45px;
+  margin-left: 2em;
+  margin-right: 2em;
+  float: left;
+}
+
+.title-pointe {
+  color: #FF005C;
+}
+
+.subtitle-pointe {
+  color: #FF005C;
+}
+
+.background-pointe-logo {
+  background-color: #FFFFFF;
+  height: 600px;
+  width: 100%;
+  margin-top: 900px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.pointe-logo-img {
+  width: 70%;
+  align-self: center;
+}
+
+.project-solution-text {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 60px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.background-pointe-screen-1 {
+  color: #FF005C;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.pointe-movement-description-img {
+  align-self: flex-end;
+  width: 40%;
+  margin-bottom: 250px;
+  margin-right: 300px;
+}
+
+.pointe-playlist-img {
+  align-self: flex-start;
+  width: 60%;
+  z-index: 2;
+  margin-left: 200px;
+}
+
+.pointe-exercise-img-1 {
+  width: 70%;
+}

@@ -53,6 +53,12 @@ a {
   text-decoration: none;
   color: #FFFFFF;
 }
+
+.video-title {
+  font-size: 400px;
+  margin-left: 20px;
+}
+
 /* fine degli elementi ricorrenti */
 /* --------------- */
 
@@ -71,9 +77,38 @@ a {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 200px;
   margin-top: 150px;
   margin-bottom: 0;
+
+  position: relative;
+  animation-duration: 4000ms;
+  animation-delay: 500ms;
+  animation-timing-function: linear;
+  animation-name: ciaoHome;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ciaoHome {
+
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: 300px;
+  }
+
+  75% {
+    left: 900px;
+  }
+  /* the ending point of the animation as 100% or to */
+  100% {
+    left: 1200px;
+    top: 0px;
+  }
+
 }
 
 .personal-info-text {
@@ -904,5 +939,356 @@ a.thefork-menu-color {
 
 .img-the-fork-introduction {
   display: flex;
-  
+  justify-content: flex-end;
+  align-content:flex-end;
+  margin-top: -200px;
+}
+
+.thefork-restaurant-1-img {
+  width: 25%;
+  align-self: center;
+  z-index: 1;
+}
+
+.thefork-home-1-img {
+  width: 20%;
+  align-self: center;
+  margin-left: -150px;
+}
+
+.description-thefork {
+  color: #1CF490;
+  font-size: 45px;
+  margin-left: 2em;
+  margin-right: 2em;
+  float: left;
+}
+
+.thefork-app-title {
+  width: 20%;
+  margin-left: 4em;
+  margin-top: 450px;
+  text-transform: uppercase;
+
+  color: #1CF490;
+
+  border-top: 1px solid #1CF490;
+  border-bottom: 1px solid #1CF490;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.old-app-img {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.thefork-old-img-1 {
+  align-self: center;
+  width: 20%;
+}
+
+.thefork-old-img-2 {
+  align-self: center;
+  width: 30%;
+}
+
+.thefork-old-img-3 {
+  align-self: center;
+  width: 20%;
+}
+
+.thefork-project-title {
+  width: 20%;
+  margin-left: 4em;
+  margin-top: 150px;
+  text-transform: uppercase;
+
+  color: #1CF490;
+
+  border-top: 1px solid #1CF490;
+  border-bottom: 1px solid #1CF490;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.background-white-thefork {
+  background-color: #FFFFFF;
+}
+
+.thefork-project-anteprima-img {
+  width: 100%;
+}
+
+.thefork-profile-page {
+  display: flex;
+  justify-content: baseline;
+  align-content: center;
+}
+
+.thefork-profilepage-title {
+  width: 20%;
+  margin-left: 4em;
+  margin-top: 150px;
+  text-transform: uppercase;
+
+  color: #773DD4;
+
+  border-top: 1px solid #773DD4;
+  border-bottom: 1px solid #773DD4;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.thefork-profile-img {
+  width: 30%;
+  align-self: flex-end;
+}
+
+.background-green-thefork {
+  background-color: #773DD4;
+}
+
+.thefork-map-page {
+  display: flex;
+  justify-content: baseline;
+}
+
+.thefork-map-title {
+  width: 20%;
+  margin-left: 4em;
+  margin-top: 150px;
+  text-transform: uppercase;
+
+  color: #1CF490;
+
+  border-top: 1px solid #1CF490;
+  border-bottom: 1px solid #1CF490;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.thefork-map-img, .thefork-home-img {
+  width: 25%;
+  align-self: center;
+}
+
+.thefork-icon-set {
+  display: flex;
+  justify-content: baseline;
+  align-content: baseline;
+}
+
+.thefork-icon-title {
+  width: 40%;
+  margin-left: 4em;
+  margin-top: 150px;
+  text-transform: uppercase;
+
+  color: #773DD4;
+
+  border-top: 1px solid #773DD4;
+  border-bottom: 1px solid #773DD4;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.thefork-iconset-img {
+  width: 40%;
+  align-self: center;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.thefork-card-title {
+  width: 40%;
+  margin-left: 4em;
+  margin-top: 150px;
+  text-transform: uppercase;
+
+  color: #773DD4;
+
+  border-top: 1px solid #773DD4;
+  border-bottom: 1px solid #773DD4;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.thefork-card-img {
+  width: 50%;
+  margin-left: 200px;
+}
+
+.background-purple-thefork {
+  background-color: #773DD4;
+  height: 700px;
+  margin-top: -150px;
+}
+
+.thefork-food-photos {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.thefork-food-img-1, .thefork-food-img-2, .thefork-food-img-3 {
+  margin-top: 250px;
+  width: 20%;
+  align-self: center;
+}
+
+
+
+/* -------------------------------------- */
+/* --- FADE COLLECTIVE */
+/* ------------------------------------------- */
+
+a.fade-menu-color {
+  color: #000000;
+}
+
+.background-fadecollective-color {
+  background-color: #FF0000;
+  margin-top: -150px;
+  height: 1100px;
+}
+
+.fade-home-img {
+  width: 80%;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.fade-introduction {
+  margin-top: -90px;
+}
+
+.subtitle-fade {
+  color: #FFFFFF;
+}
+
+.description-fade {
+  color: #FFFFFF;
+  font-size: 45px;
+  margin-left: 2em;
+  margin-right: 2em;
+  float: left;
+}
+
+.background-white-fadecollective-1 {
+  background-color: #FFFFFF;
+  margin-top: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.fade-detail-img-1 {
+  width: 80%;
+  margin-left: 10em;
+}
+
+.fade-collective-video {
+  width: 80%;
+  margin-left: 10em;
+}
+
+.fade-video-title {
+  color: #FF0000;
+  margin-top: -400px;
+}
+
+.background-white-fadecollective-2 {
+  background-color: #FFFFFF;
+  margin-top: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.fade-detail-img-2 {
+  margin-left: 4em;
+  margin-bottom: 400px;
+}
+
+.fade-detail-img-3 {
+  margin-right: 4em;
+}
+
+.fade-contact-img {
+  width: 80%;
+  margin-left: 10em;
+}
+
+
+
+/* -------------------------------------- */
+/* --- FML GALLERY */
+/* ------------------------------------------- */
+
+a.fml-menu-color {
+  color: #1100FF;
+}
+
+.background-fml-color {
+  background-color: #4BFF00;
+  margin-top: -150px;
+  height: 1000px;
+}
+
+.fml-introduction {
+  margin-top: -1000px;
+}
+
+.title-fml, .subtitle-fml {
+  color: #1100FF;
+}
+
+.fml-home-img {
+  width: 70%;
+  float: right;
+  margin-left: 4em;
+  margin-top: -100px;
+}
+
+.description-fml {
+  color: #4BFF00;
+  font-size: 45px;
+  margin-left: 2em;
+  margin-right: 2em;
+  float: left;
+}
+
+.fml-img-1 {
+  width: 50%;
+}
+
+.fml-img-2 {
+  width: 80%;
+  float: right;
+  margin-top: -80px;
+}
+
+.fml-img-3 {
+  width: 70%;
+  margin-top: -80px;
+}
+
+.background-fml-video {
+  background-color: #4BFF00;
+  height: 1100px;
+}
+
+.fml-video {
+  width: 80%;
+  margin-left: 10em;
+}
+
+.fml-video-title {
+  color: #000000;
+  margin-top: -400px;
+}
+
+.fml-book-img {
+  width: 100%;
+  margin-top: 100px;
 }

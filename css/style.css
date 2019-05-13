@@ -80,6 +80,12 @@ h1 {
   font-size: 200px;
   margin-top: 150px;
   margin-bottom: 0;
+}
+
+.index-ciao {
+  font-size: 200px;
+  margin-top: 150px;
+  margin-bottom: 0;
 
   position: relative;
   animation-duration: 4000ms;
@@ -143,82 +149,6 @@ h3 {
 
   display: block;
 }
-
-a.skill-text-visual, a.skill-text-uiux {
-  position: relative;
-  animation-duration: 4000ms;
-  animation-delay: 500ms;
-  animation-timing-function: linear;
-  animation-name: scrittaInfinite;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-}
-
-@keyframes scrittaInfinite {
-  0% {
-    color: #ff0000;
-  }
-
-  25% {
-    right: 0;
-    color: #ff0099;
-  }
-
-  50% {
-    right: 300px;
-    color: #3700ff;
-  }
-
-  75% {
-    right: 900px;
-    color: #2bff00;
-  }
-  /* the ending point of the animation as 100% or to */
-  100% {
-    right: 1200px;
-    top: 0px;
-    color: #ffff00;
-  }
-
-}
-
-a.skill-text-editorial {
-  position: relative;
-  animation-duration: 8000ms;
-  animation-delay: 0;
-  animation-timing-function: linear;
-  animation-name: scrittaInfiniteDestra;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-}
-
-@keyframes scrittaInfiniteDestra {
-  0% {
-    color: #ff0000;
-  }
-
-  25% {
-    left: 0;
-    color: #ff0099;
-  }
-
-  50% {
-    left: 300px;
-    color: #3700ff;
-  }
-
-  75% {
-    left: 900px;
-    color: #2bff00;
-  }
-  /* the ending point of the animation as 100% or to */
-  100% {
-    left: 1200px;
-    color: #ffff00;
-  }
-
-}
-
 
 .skill-text-uiux {
   border-bottom: 1px solid #FFFFFF;
@@ -594,6 +524,9 @@ ul {
   list-style-type: none;
 }
 
+.info-ultralight-sx-1 {
+  width: 350px;
+}
 
 
 /* -------------------------------------- */
@@ -1086,6 +1019,8 @@ a.thefork-menu-color {
   margin-top: 150px;
   text-transform: uppercase;
 
+  align-self: flex-start;
+
   color: #773DD4;
 
   border-top: 1px solid #773DD4;
@@ -1286,9 +1221,36 @@ a.fml-menu-color {
 .fml-video-title {
   color: #000000;
   margin-top: -400px;
+
+  position: relative;
+  animation-duration: 4000ms;
+  animation-delay: 500ms;
+  animation-timing-function: linear;
+  animation-name: ciaoHome;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
 }
 
 .fml-book-img {
   width: 100%;
   margin-top: 100px;
+}
+
+
+/* -------------------------------------- */
+/* --- WORKS */
+/* ------------------------------------------- */
+.show-img {
+  width: 300px;
+  align-self: flex-start;
+  margin-top: -100px;
+  margin-left: 300px;
+}
+
+.wanderlust-work-img .show-img {
+  display: none;
+}
+
+.wanderlust-work-img:hover .show-img {
+  display:block;
 }

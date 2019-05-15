@@ -505,6 +505,8 @@ a.ultra-menu-color {
 
 .info-ultralight {
   background-color: black;
+  margin-top: -30px;
+  padding-top: 100px;
 }
 
 .info-ultralight-1 {
@@ -705,41 +707,40 @@ a.pointe-menu-color {
 }
 
 .background-pointe-screen-1, .background-pointe-screen-2 {
-  color: #FF005C;
-  height: 700px;
+  background-color: #FF005C;
+  height: 1500px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
-.pointe-movement-description-img {
-  align-self: flex-end;
-  width: 40%;
-  margin-bottom: 250px;
-  margin-right: 300px;
 }
 
 .pointe-playlist-img {
-  align-self: flex-start;
-  width: 60%;
-  z-index: 2;
-  margin-left: 200px;
+  width: 70%;
+  margin-top: -600px;
+}
+
+.pointe-movement-description-img {
+  width: 40%;
+  margin-left: 55%;
+  margin-top: 100px;
 }
 
 .pointe-exercise-img-1 {
-  width: 70%;
+  width: 80%;
+  margin-top: -500px;
+  margin-left: 200px;
 }
 
 .pointe-choose-movement-img {
   width: 60%;
-  align-self: flex-start;
 }
 
 .pointe-position-img {
   width: 40%;
-  align-self: flex-end;
-  margin-right: 150px;
+  float: right;
+  margin-top: 100px;
+}
+
+.background-pointe-screen-2 {
+  height: 900px;
 }
 
 .pointe-project-title {
@@ -766,13 +767,13 @@ a.pointe-menu-color {
 }
 
 .proiezione-2-pointe {
-  margin-left: 4em;
+  margin-left: 6em;
 }
 
 .pointe-icon-title {
   width: 40%;
   margin-left: 4em;
-  margin-top: 200px;
+  margin-top: 450px;
   text-transform: uppercase;
 
   color: #FF005C;
@@ -781,6 +782,11 @@ a.pointe-menu-color {
   border-bottom: 1px solid #FF005C;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.icon-set-pointe-img {
+  margin-left: 4em;
+  width: 45%;
 }
 
 
@@ -824,14 +830,16 @@ a.pills-menu-color {
   margin-left: 4em;
 }
 
-.pills-indice-img, .pills-restaurant-name-img {
+.pills-indice-img {
   align-self: center;
-  width: 650px;
+  width: 45%;
+  margin-left: -7em;
 }
 
 .pills-restaurant-name-img {
-  width: 1000px;
-  margin-left: 2em;
+  width: 45%;
+  align-self: center;
+  margin-right: 2em;
 }
 
 .pills-restaurant-article-img {
@@ -1190,6 +1198,10 @@ a.fade-menu-color {
 /* --- FML GALLERY */
 /* ------------------------------------------- */
 
+.fml-gallery-menu {
+  border-color: #1100FF;
+}
+
 a.fml-menu-color {
   color: #1100FF;
 }
@@ -1282,7 +1294,7 @@ a.fml-menu-color {
 }
 
 .wanderlust-work-img:hover .show-img {
-  display:block;
+  display: block;
 }
 
 .arrow-white-works {
@@ -1338,7 +1350,6 @@ a.fml-menu-color {
     padding-top: 50px;
     font-size: 4em;
     line-height: 70px;
-
   }
   
   .wanderlust-subtitle {
@@ -1370,4 +1381,210 @@ a.fml-menu-color {
   }
 
 
+}
+
+/* -------------------------------------- */
+/* --- ULTRALIGHT BEAM */
+/* ------------------------------------------- */
+
+@media(max-width: 1000px) {
+  .ultralight-title {
+    margin-left: 1.5em;
+    padding-top: 50px;
+    font-size: 4em;
+    line-height: 70px;
+  }
+
+  .ultralight-introduction {
+    height: 800px;
+    width: 100%;
+    margin-top: -6em;
+  }
+
+  .description-ultralight {
+    font-size: 2em;
+  }
+
+  .ultra-inside-2 {
+    width: 100%;
+    height: 900px;
+    margin-top: 8em;
+  }
+
+  .spd-info {
+    display: block;
+  }
+}
+
+@media(max-width: 700px) {
+  .ultralight-introduction {
+    height: 610px;
+    width: 100%;
+    margin-top: -6em;
+  }
+
+  .ultralight-img-repeat-2 {
+   margin-top: -200px;
+  }
+
+  .ultra-inside-2 {
+    height: 800px;
+  }
+
+  .ultralight-img-collage-1 {
+    margin-left: 20px;
+  }
+
+  .ultralight-img-collage-2 {
+    width: 70%;
+    margin-left: 150px;
+    margin-top: 5em;
+    padding-bottom: 50px;
+  }
+}
+
+@media(max-width: 650px) {
+
+  .ultralight-title {
+    font-size: 2.5em;
+    width: 100%;
+    margin-left: 2.3em;
+    margin-top: 100px;
+  }
+
+  .ultralight-img-collage-1 {
+    margin-left: 25px;
+  }
+
+  .ultralight-img-collage-2 {
+    margin-left: 100px;
+    padding-bottom: 50px;
+  }
+
+  .ultralight-img-2 {
+    margin-top: -200px;
+    }
+}
+
+@media(max-width: 470px) {
+  .ultralight-title {
+    font-size: 2em;
+    margin-left: 2em;
+  }
+
+  .ultralight-subtitle {
+    font-size: 1.5em;
+    margin-left: 2.8em;
+  }
+
+  .ultralight-introduction {
+    height: 450px;
+  }
+
+  .description-ultralight {
+    font-size: 1.5em;
+  }
+
+  .ultralight-img-2 {
+    margin-top: -150px;
+  }
+
+  .ultralight-img-collage-1 {
+    margin-top: 40px;
+  }
+
+  .ultra-inside-2 {
+    margin-top: 4em;
+    height: 550px;
+  }
+
+  .ultralight-img-verde {
+    margin-left: 2em;
+  }
+
+  .ultralight-img-repeat {
+    margin-right: 2em;
+  }
+  .ultralight-img-repeat-2 {
+    margin-top: -100px;
+    margin-left: 2em;
+    width: 50%;
+  }
+}
+
+/* -------------------------------------- */
+/* --- PILLS */
+/* ------------------------------------------- */
+
+@media(max-width: 1155px) {
+  .pills-logo-img {
+    margin-bottom: 200px;
+  }
+
+  .pointe-introduction {
+    margin-top: -150px;
+  }
+}
+
+
+
+/* -------------------------------------- */
+/* --- PROJECT INFORMATIONS */
+/* ------------------------------------------- */
+
+
+@media(max-width: 1000px) {
+.info-ultralight-sx-1 {
+  width: 250px;
+}
+
+.spd-info-lungo {
+  display: block;
+}
+
+.spd-info {
+  display: none;
+}
+}
+
+@media(max-width: 750px) {
+.info-ultralight {
+  background-color: black;
+  margin-top: -30px;
+  padding-top: 100px;
+}
+
+.info-ultralight-1 {
+  display: flex;
+  border-bottom: 1px solid #ffffff;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.info-title-ultralight {
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+
+li {
+  color: #FFFFFF;
+  font-size: 35px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.info-ultralight-sx-1 {
+  width: 250px;
+}
+
+.spd-info-lungo {
+  display: none;
+}
+
+.spd-info {
+  display: block;
+}
 }

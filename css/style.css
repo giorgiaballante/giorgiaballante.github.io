@@ -1331,7 +1331,7 @@ a.fml-menu-color {
 }
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 1024px) {
  .wanderlust-logo {
     width: 95%;
     margin-left: 1em;
@@ -1368,7 +1368,7 @@ a.fml-menu-color {
   }
 
   .wand-img-icons {
-    margin-top: 220px;
+    margin-top: 250px;
     margin-left: 100px;
   }
 
@@ -1379,8 +1379,90 @@ a.fml-menu-color {
   .wand-pattern-title {
     margin-left: 2.8em;
   }
+}
 
+@media(max-width: 768px) {
+  .wand-img-businesscard-project-pg {
+    width: 40%;
+  }
 
+  .wand-img-icons {
+    margin-top: 0;
+    margin-left: 250px;
+  }
+
+  .wand-img-pattern-white {
+    width: 85%;
+  }
+}
+
+@media(max-width: 414px) {
+  .description-wanderlust {
+    font-size: 1em;
+    margin-top: 10px;
+  }
+
+  .project-introduction {
+    margin-top: -5em;
+    height: 700px;
+  }
+  
+  .wand-img-poster-1 {
+    width: 70%;
+    margin-left: 1em;
+  }
+
+  .wand-img-businesscard-project-pg {
+    width: 60%;
+    margin-top: -90px;
+    margin-right: 30px;
+  }
+
+  .icon-wand-title {
+    padding: 10px 100px 10px 0;
+    margin-right: 190px;
+    font-size: 1em;
+  }
+
+  .wand-img-icons {
+    margin-top: -70px;
+  }
+
+  .wand-pattern-title {
+    padding: 10px 100px 10px 0;
+    width: 350px;
+    font-size: 1em;
+    margin-left: 30px;
+  }
+
+  .wand-img-pattern-white {
+    margin-left: 2em;
+    width: 85%;
+  }
+}
+
+@media(max-width: 375px) {
+  .wand-img-businesscard-project-pg {
+    width: 60%;
+    margin-top: -150px;
+  }
+
+  .icon-wand-title {
+    padding: 10px 50px 10px 0;
+    margin-right: 190px;
+    font-size: 1em;
+  }
+
+  .wand-img-icons {
+    width: 40%;
+    margin-left: 200px;
+  }
+
+  .wand-pattern-title {
+    width: 320px;
+    font-size: 1em;
+    margin-left: 30px;
+  }
 }
 
 /* -------------------------------------- */
@@ -1511,6 +1593,78 @@ a.fml-menu-color {
     width: 50%;
   }
 }
+
+/* -------------------------------------- */
+/* --- PILLS */
+/* ------------------------------------------- */
+@media(max-width: 1024px) {
+  .ultralight-introduction {
+    height: 850px;
+  }
+
+  .ultralight-img-2 {
+    margin-top: -300px;
+  }
+
+  .ultralight-img-collage-1 {
+    margin-left: 50px;
+  }
+
+  .ultralight-img-verde {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+  .ultralight-img-repeat-2 {
+    margin-top: -200px;
+  }
+
+  .ultralight-img-collage-2 {
+    margin-top: 6em;
+    padding-bottom: 40px;
+  }
+}
+
+@media(max-width: 768px) {
+  .ultralight-introduction {
+    height: 700px;
+  }
+
+  .ultralight-img-2 {
+    margin-top: -250px;
+  }
+
+  .ultralight-img-collage-2 {
+    margin-left: 350px;
+  }
+}
+
+@media(max-width: 414px) {
+  .ultralight-introduction {
+    height: 430px;
+  }
+
+  .description-ultralight {
+    font-size: 1em;
+  }
+
+  .ultralight-img-2 {
+    margin-top: -120px;
+  }
+
+  .ultralight-img-collage-1 {
+    margin-left: 30px;
+  }
+
+  .ultralight-img-repeat-2 {
+    margin-top: -70px;
+  }
+
+  .ultralight-img-collage-2 {
+    margin-left: 10s0px;
+  }
+}
+
 
 /* -------------------------------------- */
 /* --- PILLS */
@@ -1925,7 +2079,21 @@ ul {
     font-size: 25px;
     margin-left: -20px;
   }
+
+  .project-title {
+    font-size: 2em;
+    width: 80%;
+    margin-left: 1em;
+  }
+
+  .project-subtitle {
+    font-size: 1em;
+    width: 80%;
+    margin-left: 2em;
+    margin-top: 5px;
+  }
 }
+
 
 @media(max-width: 375px) {
   .info-ultralight-1 {

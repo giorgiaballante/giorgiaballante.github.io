@@ -130,7 +130,6 @@ h3 {
   font-size: 65px;
   text-transform: uppercase;
   line-height: 70px;
-
 }
 
 .skills-list {
@@ -245,7 +244,7 @@ h3 {
   margin-right: 4em;
 
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 1.2em;
   color: #FFFFFF;
 
   border-top: 1px solid #FFFFFF;
@@ -285,7 +284,7 @@ h3 {
 
 .description-wanderlust {
   color: #0041FF;
-  font-size: 45px;
+  font-size: 3em;
   margin-left: 2em;
   margin-right: 2em;
 }
@@ -296,28 +295,28 @@ h3 {
 
 .wanderlust-title {
   text-transform: uppercase;
-  margin-left: 1.5em;
+  margin-left: 1.2em;
   padding-top: 50px;
-  font-size: 60px;
+  font-size: 5em;
 }
 
 .wanderlust-subtitle {
-  margin-left: 3.8em;
+  margin-left: 3em;
   margin-top: -10px;
   color: #FFFFFF;
-  font-size: 25px;
+  font-size: 2em;
 }
 
 .wand-img-poster-1 {
-  width: 800px;
-  margin-left: 3.5em;
+  width: 45%;
+  margin-left: 3em;
 }
 
 .wand-img-businesscard-project-pg {
-  width: 850px;
+  width: 45%;
   float: right;
   margin-right: 4em;
-  margin-top: -650px;
+  margin-top: -40em;
 }
 
 .icon-wand-title {
@@ -330,13 +329,13 @@ h3 {
 
   border-top: 1px solid #FFFFFF;
   border-bottom: 1px solid #FFFFFF;
-  padding-right: 670px;
+  padding-right: 630px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 .wand-img-icons {
-  width: 500px;
+  width: 30%;
   margin-left: 250px;
   margin-top: 120px;
   padding-bottom: 60px;
@@ -533,23 +532,31 @@ ul {
 /* --- DIECI MARI DI RIMINI */
 /* ------------------------------------------- */
 
+.diecimari-menu {
+  border-color: #F7CD45;
+}
+
 a.diecimari-menu-color {
   color: #F7CD45;
+}
+
+.diecimari-introduction {
+  margin-left: -2em;
 }
 
 .diecimari-cover {
   width: 50%;
   float: right;
-  margin-right: 40px;
+  margin-right: 4em;
 }
 
-.subtitle-diecimari {
-  color: #FFFFFF;
+.title-diecimari, .subtitle-diecimari {
+  color: #F7CD45;
 }
 
 .description-dieci {
   color: #F7CD45;
-  font-size: 45px;
+  font-size: 3em;
   margin-left: 2em;
   margin-right: 2em;
   float: left;
@@ -1079,6 +1086,10 @@ a.thefork-menu-color {
 /* --- FADE COLLECTIVE */
 /* ------------------------------------------- */
 
+.fadecollective-menu {
+  border-color: #000000;
+}
+
 a.fade-menu-color {
   color: #000000;
 }
@@ -1147,6 +1158,7 @@ a.fade-menu-color {
 
 .fade-detail-img-3 {
   margin-right: 4em;
+  margin-top: -10em;
 }
 
 .fade-contact-img {
@@ -1253,4 +1265,9 @@ a.fml-menu-color {
 
 .wanderlust-work-img:hover .show-img {
   display:block;
+}
+
+.arrow-white-works {
+  display: inline;
+  margin-left: 200px;
 }

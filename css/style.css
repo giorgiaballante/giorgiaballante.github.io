@@ -1463,6 +1463,32 @@ a.fml-menu-color {
     font-size: 1em;
     margin-left: 30px;
   }
+
+  .wand-img-pattern-white {
+    margin-left: 1.5em;
+  }
+}
+
+@media(max-width: 320px) {
+  .wand-img-businesscard-project-pg {
+    width: 60%;
+    margin-top: -200px;
+  }
+
+  .icon-wand-title {
+    margin-right: 150px;
+  }
+
+  .wand-img-icons {
+    margin-left: 180px;
+  }
+
+  .wand-pattern-title {
+    width: 280px;
+    font-size: 1em;
+    margin-left: 20px;
+  }
+  
 }
 
 /* -------------------------------------- */
@@ -2116,5 +2142,15 @@ ul {
   li {
     font-size: 25px;
     margin-left: -20px;
+  }
+}
+
+@media(max-width: 320px) {
+  .project-title {
+    font-size: 1.5em;
+  }
+
+  .project-subtitle {
+    margin-left: 1.5em;
   }
 }

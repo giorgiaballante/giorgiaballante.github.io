@@ -1763,7 +1763,11 @@ a.fml-menu-color {
   }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 414px) {
+  .background-fadecollective-color {
+    height: 350px;
+  }
+
   .background-fadecollective-color {
     height: 350px;
   }
@@ -1796,9 +1800,27 @@ a.fml-menu-color {
     margin-left: 40px;
   }
 
+  .background-white-fadecollective-2 {
+    margin-top: 200px;
+    height: 550px;
+  }
+
   .fade-detail-img-2 {
-    margin-top: -300px;
+    margin-top: -150px;
     width: 70%;
+    margin-left: 2em;
+  }
+
+  .fade-detail-img-3 {
+    margin-top: -350px;
+  }
+}
+
+@media(max-width: 350px) {
+  .video-title {
+    font-size: 4em;
+    margin-top: -150px;
+    margin-left: 40px;
   }
 }
 

@@ -1527,27 +1527,182 @@ a.fml-menu-color {
 }
 
 
+/* -------------------------------------- */
+/* --- FML GALLERY */
+/* ------------------------------------------- */
+@media(max-width: 1024px) {
+  .background-fml-color {
+    height: 800px;
+  }
+
+  .fml-introduction {
+    margin-top: -850px;
+  }
+  
+  .description-fml {
+    margin-top: 150px;
+  }
+
+  .fml-img-1, .fml-img-3 {
+    margin-left: 2.5em;
+  }
+
+  .background-fml-video {
+    height: 650px;
+  }
+
+  .fml-video-title {
+    margin-top: -250px;
+  }
+}
+
+@media(max-width: 768px) {
+  .fml-home-img {
+    margin-top: -10px;
+  }
+
+  .background-fml-color {
+    height: 700px;
+  }
+
+  .fml-introduction {
+    margin-top: -750px;
+  }
+
+  .description-fml {
+    font-size: 2.3em;
+    margin-top: 50px;
+  }
+
+  .fml-img-2 {
+    margin-top: -10px;
+  }
+
+  .fml-img-3 {
+    margin-top: -10px;
+  }
+
+  .background-fml-video {
+    height: 500px;
+  }
+
+  .fml-video-title {
+    margin-top: -220px;
+    font-size: 15em;
+  }
+}
+
+@media(max-width: 414px) {
+  .project-title {
+    font-size: 1.5em;
+  }
+
+  .project-subtitle {
+    font-size: 1em;
+    margin-left: 2.2em;
+    margin-top: -5px;
+  }
+
+  .background-fml-color {
+    height: 400px;
+  }
+
+  .fml-introduction {
+    margin-top: -480px;
+  }
+
+  .description-fml {
+    font-size: 1em;
+    margin-top: 50px;
+  }
+
+  .fml-img-1 {
+    margin-top: -10px;
+    margin-left: 10px;
+    width: 60%;
+  }
+
+  .fml-img-2 {
+    width: 85%;
+  }
+
+  .fml-img-3 {
+    width: 75%;
+    margin-left: 10px;
+  }
+}
+
+@media(max-width: 375px) {
+  .project-title {
+    font-size: 1.5em;
+  }
+
+  .project-subtitle {
+    font-size: 1em;
+    margin-left: 2.2em;
+    margin-top: -5px;
+  }
+
+  .background-fml-color {
+    height: 400px;
+  }
+
+  .fml-introduction {
+    margin-top: -480px;
+  }
+
+  .description-fml {
+    font-size: 1em;
+    margin-top: 50px;
+  }
+
+  .fml-video-title {
+    margin-top: -220px;
+    font-size: 15em;
+  }
+
+  .background-fml-video {
+    height: 280px;
+  }
+
+  .fml-video  {
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  .fml-video-title {
+    margin-top: -150px;
+    font-size: 10em;
+  }
+
+  .fml-book-img {
+    margin-top: -10px;
+  }
+  
+
+}
+
 
 /* -------------------------------------- */
 /* --- PROJECT INFORMATIONS */
 /* ------------------------------------------- */
 
 
-@media(max-width: 1000px) {
+@media(max-width: 1024px) {
 .info-ultralight-sx-1 {
   width: 250px;
 }
 
 .spd-info-lungo {
-  display: block;
+  display: none;
 }
 
 .spd-info {
-  display: none;
+  display: block;
 }
 }
 
-@media(max-width: 750px) {
+@media(max-width: 768px) {
 .info-ultralight {
   background-color: black;
   margin-top: -30px;
@@ -1587,4 +1742,16 @@ ul {
 .spd-info {
   display: block;
 }
+}
+
+@media(max-width: 375px) {
+  .info-ultralight-1 {
+    flex-direction: column;
+    font-size: 0.6em;
+  }
+
+  li {
+    font-size: 25px;
+    margin-left: -20px;
+  }
 }

@@ -856,18 +856,18 @@ a.pills-menu-color {
 }
 
 .pills-bologna-illustration-img {
-  width: 600px;
+  width: 55%;
   align-self: center;
 }
 
 .pills-venezia-illustration-img {
-  width: 400px;
+  width: 30%;
   align-self: center;
   margin-left: 2em;
 }
 
 .pills-page-photo-img, .pills-photos {
-  width: 93%;
+  width: 90%;
   margin-left: 4em;
   margin-top: 50px;
 }
@@ -1621,7 +1621,7 @@ a.fml-menu-color {
 }
 
 /* -------------------------------------- */
-/* --- PILLS */
+/* --- ULTRALIGHT BEAM */
 /* ------------------------------------------- */
 @media(max-width: 1024px) {
   .ultralight-introduction {
@@ -1687,7 +1687,7 @@ a.fml-menu-color {
   }
 
   .ultralight-img-collage-2 {
-    margin-left: 10s0px;
+    margin-left: 100px;
   }
 }
 
@@ -1705,6 +1705,89 @@ a.fml-menu-color {
     margin-top: -150px;
   }
 }
+
+@media(max-width: 1024px) {
+
+  .background-pills-color {
+    height: 800px;
+  }
+
+  .pills-logo-img {
+    margin-bottom: 150px;
+  }
+
+  .pills-indice-img {
+    margin-left: 0;
+  }
+
+  .pills-restaurant-name-img {
+    margin-left: 2em;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 414px) {
+  .background-pills-color {
+    height: 700px;
+  }
+
+  .description-pills {
+    font-size: 2em;
+  }
+
+  .pills-restaurant-article-img, .pills-page-photo-img {
+    margin-left: 3em;
+  }
+}
+
+@media(max-width: 414px) {
+  .background-pills-color {
+    height: 450px;
+  }
+
+  .pills-logo-img {
+    margin-left: 2.5em;
+    margin-bottom: 100px;
+    width: 80%;
+  }
+
+  .description-pills {
+    font-size: 1.3em;
+  }
+
+  .pills-indice-img {
+    margin-left: -20px;
+  }
+
+  .pills-restaurant-article-img, .pills-page-photo-img, .pills-photos {
+    margin-left: 1.5em;
+  }
+
+  .pills-illusration {
+    flex-direction: column;
+  }
+
+  .pills-bologna-illustration-img {
+    width: 90%;
+  }
+
+  .pills-venezia-illustration-img {
+    width: 50%;
+    margin-top: 50px;
+  }
+}
+/* -------------------------------------- */
+/* --- DIECI MARI DI RIMINI */
+/* ------------------------------------------- */
+@media(max-width: 1024px) {
+  .diecimari-photo3 {
+    margin-left: 300px;
+    margin-top: -200px;
+  }
+}
+
+
+
+
 
 
 /* -------------------------------------- */
@@ -1942,6 +2025,7 @@ a.fml-menu-color {
   .project-title {
     font-size: 4em;
     line-height: 1.3em;
+    margin-left: 1em;
   }
 
   .description-fade {

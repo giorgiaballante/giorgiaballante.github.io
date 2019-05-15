@@ -1724,11 +1724,17 @@ a.fml-menu-color {
 }
 
 .video-title {
-  font-size: 15em;
+  font-size: 14em;
+  margin-left: 40px;
 }
 
 .fade-video-title {
   margin-top: -300px;
+}
+
+.fade-collective-video {
+  width: 90%;
+  margin-left: 35px;
 }
 
 .fade-detail-img-2 {
@@ -1749,12 +1755,34 @@ a.fml-menu-color {
 }
 
 @media(max-width: 768px) {
+  .background-fadecollective-color {
+    height: 600px;
+  }
+
+  .project-title {
+    font-size: 4em;
+    line-height: 1.3em;
+  }
+
+  .description-fade {
+    font-size: 2.3em;
+    margin-left: 2.3em;
+  }
   .video-title {
     font-size: 11em;
   }
 
+  .background-white-fadecollective-1 {
+    margin-top: 700px;
+  }
+
   .fade-collective-video {
     margin-left: 70px;
+  }
+
+  .fade-detail-img-1 {
+    margin-left: 110px;
+    width: 80%;
   }
 
   .fade-detail-img-3 {

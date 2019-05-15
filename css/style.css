@@ -1630,6 +1630,24 @@ a.fml-menu-color {
     width: 75%;
     margin-left: 10px;
   }
+
+  .background-fml-video {
+    height: 320px;
+  }
+
+  .fml-video  {
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  .fml-video-title {
+    margin-top: -180px;
+    font-size: 10em;
+  }
+
+  .fml-book-img {
+    margin-top: -10px;
+  }
 }
 
 @media(max-width: 375px) {
@@ -1744,7 +1762,7 @@ ul {
 }
 }
 
-@media(max-width: 375px) {
+@media(max-width: 414px) {
   .info-ultralight-1 {
     flex-direction: column;
     font-size: 0.6em;

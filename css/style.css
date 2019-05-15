@@ -1696,9 +1696,112 @@ a.fml-menu-color {
   .fml-book-img {
     margin-top: -10px;
   }
-  
-
 }
+
+/* -------------------------------------- */
+/* --- FADE COLLECTIVE */
+/* ------------------------------------------- */
+@media(max-width: 1024px) {
+
+.fade-home-img {
+  margin-left: 50px;
+}
+
+.background-fadecollective-color {
+  height: 700px;
+}
+
+.description-fml {
+  margin-right: 4em;
+}
+
+.background-white-fadecollective-1 {
+  margin-top: 850px;
+}
+
+.fade-detail-img-1 {
+  margin-top: 100px;
+}
+
+.video-title {
+  font-size: 15em;
+}
+
+.fade-video-title {
+  margin-top: -300px;
+}
+
+.fade-detail-img-2 {
+  margin-top: -200px;
+}
+
+.fade-detail-img-3 {
+  float: right;
+  margin-top: -200px;
+}
+
+.fade-contact-img {
+  background-color: #FF0000;
+  width: 100%;
+  margin-left: 0;
+  margin-top: 50px;
+}
+}
+
+@media(max-width: 768px) {
+  .video-title {
+    font-size: 11em;
+  }
+
+  .fade-collective-video {
+    margin-left: 70px;
+  }
+
+  .fade-detail-img-3 {
+    margin-right: 2em;
+    width: 70%;
+  }
+}
+
+@media(max-width: 375px) {
+  .background-fadecollective-color {
+    height: 350px;
+  }
+
+  .title-fade {
+    margin-top: 100px;
+  }
+
+  .description-fade {
+    font-size: 1em;
+    margin-top: 30px;
+    margin-left: 2em;
+  }
+
+  .background-white-fadecollective-1 {
+    margin-top: 300px;
+  }
+
+  .fade-detail-img-1 {
+    margin-top: 0;
+    margin-left: 2em;
+  }
+
+  .video-title {
+    font-size: 5em;
+    margin-top: -150px;
+  }
+
+  .fade-collective-video {
+    margin-left: 40px;
+  }
+
+  .fade-detail-img-2 {
+    margin-top: -300px;
+    width: 70%;
+  }
+}
+
 
 
 /* -------------------------------------- */

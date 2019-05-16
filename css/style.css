@@ -638,6 +638,10 @@ a.ultra-menu-color {
   margin-right: 40px;
 }
 
+.info-ultralight-1:last-child {
+  margin-bottom: 100px;
+}
+
 .info-title-ultralight {
   text-transform: uppercase;
   color: #FFFFFF;
@@ -1423,6 +1427,10 @@ a.fml-menu-color {
 .arrow-white-works {
   display: inline;
   margin-left: 200px;
+}
+
+.img-arrow-link {
+  margin-top: 40px;
 }
 
 

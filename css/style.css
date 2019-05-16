@@ -2148,7 +2148,7 @@ a.fml-menu-color {
   .project-title {
     font-size: 4em;
     line-height: 1.3em;
-    margin-left: 1em;
+    margin-left: 1.5em;
   }
 
   .description-fade {
@@ -2324,13 +2324,13 @@ ul {
   .project-title {
     font-size: 2em;
     width: 80%;
-    margin-left: 1em;
+    margin-left: 3em;
   }
 
   .project-subtitle {
     font-size: 1em;
     width: 80%;
-    margin-left: 2em;
+    margin-left: 6em;
     margin-top: 5px;
   }
 }
@@ -2366,6 +2366,11 @@ ul {
   }
 
   .project-subtitle {
-    margin-left: 1.5em;
+    margin-left: 4.5em;
   }
+
+  .ultralight-introduction {
+    height: 350px;
+  }
+
 }

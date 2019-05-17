@@ -360,7 +360,7 @@ h3 {
 
   .wanderlust-img-home {
     width: 80%;
-    margin-left: 250px;
+    margin-left: 180px;
     margin-bottom: 50px;
   }
 
@@ -370,8 +370,8 @@ h3 {
 
   .project-img-ultralight {
     width: 400px;
-    margin-left: 350px;
-    margin-top: -310px;
+    margin-left: 300px;
+    margin-top: -320px;
   }
 
   .ultralight-img {
@@ -965,7 +965,7 @@ a.pills-menu-color {
 .pills-restaurant-name-img {
   width: 45%;
   align-self: center;
-  margin-right: 2em;
+  margin-left: 50px;
 }
 
 .pills-restaurant-article-img {
@@ -1310,7 +1310,7 @@ a.fade-menu-color {
 
 .fade-detail-img-3 {
   margin-right: 4em;
-  margin-top: -10em;
+  margin-top: 500px;
 }
 
 .fade-contact-img {
@@ -2249,6 +2249,33 @@ a.fml-menu-color {
 
 
 
+
+
+/* -------------------------------------- */
+/* --- THE FORK */
+/* ------------------------------------------- */
+
+@media(max-width: 1024px) {
+  .img-the-fork-introduction {
+    margin-top: 0;
+    margin-right: 50px;
+  }
+
+  .description-thefork {
+    font-size: 2.5em;
+    margin-top: 200px;
+  }
+
+  .thefork-app-title {
+    width: 50%;
+    margin-top: 700px;
+  }
+
+  .thefork-project-title {
+    width: 50%;
+  }
+}
+
 /* -------------------------------------- */
 /* --- PROJECT INFORMATIONS */
 /* ------------------------------------------- */
@@ -2294,11 +2321,13 @@ a.fml-menu-color {
   text-transform: uppercase;
   color: #FFFFFF;
   margin-left: 20px;
+  width: 190px;
 }
 
 li {
   color: #FFFFFF;
   font-size: 35px;
+  width: 500px;
 }
 
 ul {

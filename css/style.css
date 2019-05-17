@@ -2738,3 +2738,18 @@ ul {
     height: 350px;
   }
 }
+
+/* CONTACT PAGE  */
+
+@media(max-width: 414px) {
+  .contact-list {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .contact-drink {
+    font-size: 30px;
+    width: 57%;
+    margin-right: -20px;
+  }
+}

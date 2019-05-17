@@ -251,6 +251,10 @@ h3 {
   margin-left: 100px;
 }
 
+.link-home-ultra {
+  float: left;
+}
+
 /* work 3 - the fork redesign */
 .work:last-child {
   width: 100%;
@@ -843,6 +847,10 @@ a.diecimari-menu-color {
   color: #000000;
   font-size: 60px;
   align-self: flex-end;
+}
+
+.contact-instagram {
+  margin-left: 200px;
 }
 
 

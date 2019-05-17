@@ -2682,6 +2682,10 @@ ul {
     margin-left: 3em;
   }
 
+  h1.project-title.title-diecimari {
+    margin-top: -20px;
+  }
+
   .project-subtitle {
     font-size: 1em;
     width: 80%;

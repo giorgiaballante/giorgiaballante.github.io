@@ -396,6 +396,69 @@ h3 {
   }
 }
 
+@media(max-width: 414px) {
+  .skill-text {
+    font-size: 30px;
+    width: 70%;
+  }
+
+  .work-wanderlust h3 {
+    font-size: 35px;
+    margin-left: -1em;
+  }
+
+  .work-wanderlust p, .work-ultralight-home p {
+    margin-left: -1.5em;
+  }
+
+  .wanderlust-img-home {
+    width: 60%;
+    margin-left: 0;
+    margin-top: -50px;
+    margin-top: -500px;
+  }
+
+  .work-wanderlust {
+    height: 550px;
+  }
+
+  .work-wanderlust a {
+    margin-top: 300px;
+    margin-left: -1.5em;
+  }
+
+  .work-ultralight-home h3 {
+    font-size: 35px;
+    margin-left: -1em;
+    line-height: 40px;
+  }
+
+  .project-img-ultralight {
+    width: 100%;
+    margin-left: 0;
+    margin-top: -300px;
+  }
+
+  .work-the-fork h3 {
+    font-size: 35px;
+    margin-left: -1em;
+    line-height: 40px;
+  }
+
+  .work-fork-home-color {
+    margin-left: -1.5em;
+  }
+
+  .the-fork-img2 {
+    margin-left: -300px;
+    height: 300px;
+  }
+
+  .work:last-child {
+    height: 600px;
+  }
+}
+
 
 /* --------------------------------------------- */
 /* WANDERLUST PROJECT PAGE */
@@ -1532,6 +1595,13 @@ a.fml-menu-color {
 .img-arrow-link {
   margin-top: 40px;
 }
+
+@media(max-width: 414px) {
+  .arrow-white-works {
+    margin-left: 25px;
+  }
+}
+
 
 
 

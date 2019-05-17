@@ -915,6 +915,106 @@ a.pointe-menu-color {
   width: 45%;
 }
 
+@media(max-width: 1024px) {
+  .project-solution-text {
+    font-size: 40px;
+  }
+
+  .pointe-playlist-img {
+    margin-top: -400px;
+  }
+
+  .background-pointe-screen-1 {
+    height: 900px;
+  }
+
+  .pointe-exercise-img-1 {
+    margin-top: -270px;
+  }
+
+  .background-pointe-screen-2 {
+    height: 550px;
+  }
+}
+
+@media(max-width: 768px) {
+  .description-pointe {
+    font-size: 30px;
+  }
+
+  .project-solution-text {
+    font-size: 35px;
+  }
+
+  .background-pointe-screen-1 {
+    height: 600px;
+  }
+}
+
+@media(max-width: 414px) {
+  .description-pointe {
+    font-size: 18px;
+  }
+
+  .background-pointe-logo {
+    margin-top: 500px;
+    height: 300px;
+  }
+
+  .project-solution-text {
+    font-size: 20px;
+  }
+  .pointe-exercise-img-1 {
+    margin-left: 50px;
+    margin-top: -100px;
+  }
+
+  .background-pointe-screen-1 {
+    height: 400px;
+  }
+
+  .pointe-position-img {
+    width: 70%;
+    margin-top: -50px;
+  }
+
+  .background-pointe-screen-2 {
+    height: 400px;
+  }
+
+  .pointe-project-title {
+    margin-left: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    margin-top: 50px;
+  }
+
+  .proiezione-1-pointe {
+    width: 70%;
+    margin-right: 1em;
+  }
+
+  .proiezione-2-pointe {
+    margin-left: 3em;
+    margin-top: 10px;
+    width: 50%;
+  }
+
+  .pointe-icon-title {
+    margin-left: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    margin-top: 170px;
+  }
+
+  .icon-set-pointe-img {
+    width: 70%;
+    margin-left: 1.5em;
+  }
+}
+
 
 /* -------------------------------------- */
 /* --- PILLS */
@@ -1916,6 +2016,33 @@ a.fml-menu-color {
   }
 }
 
+@media(max-width: 768px) {
+  .diecimari-photo3 {
+    margin-left: 220px;
+    margin-top: -140px;
+  }
+
+  .description-dieci {
+    font-size: 2em;
+  }
+}
+
+@media(max-width: 414px) {
+  .title-diecimari {
+    margin-top: -200px;
+  }
+
+  .description-dieci {
+    font-size: 1.2em;
+  }
+
+  .diecimari-photo3 {
+    margin-left: 120px;
+    margin-top: -80px;
+  }
+
+}
+
 
 
 
@@ -2276,6 +2403,127 @@ a.fml-menu-color {
   }
 }
 
+@media(max-width: 768px) {
+  .background-thefork-color {
+    height: 800px;
+  }
+
+  .title-thefork {
+    margin-top: 300px;
+  }
+
+  .thefork-iconset-img {
+    margin-right: 30px;
+  }
+}
+
+@media(max-width: 414px) {
+
+  .background-thefork-color {
+    height: 600px;
+  }
+
+  .thefork-introduction {
+    margin-top: -800px;
+  }
+  .img-the-fork-introduction {
+    margin-left: -200px;
+  }
+
+  .thefork-home-1-img {
+    margin-left: -45px;
+  }
+
+  .thefork-iconset-img {
+    margin-left: -50px;
+  }
+
+  .description-thefork {
+    font-size: 1.2em;
+    margin-top: 100px;
+  }
+
+  .thefork-app-title {
+    margin-top: 400px;
+    width: 80%;
+    margin-left: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+  }
+
+  .thefork-project-title {
+    width: 80%;
+    margin-left: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+  }
+
+  .thefork-profile-img {
+    margin-left: 50px;
+  }
+
+  .thefork-profilepage-title {
+    width: 90%;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+  }
+
+  .thefork-map-title {
+    width: 40%;
+    margin-left: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+
+  .thefork-icon-title {
+    width: 80%;
+    margin-left: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    font-size: 1.2em;
+  }
+
+  .thefork-iconset-img {
+    margin-left: -300px;
+    margin-top: 100px;
+  }
+
+  .thefork-card-title {
+    width: 80%;
+    margin-left: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    font-size: 1.2em;
+  }
+
+  .background-purple-thefork {
+    margin-top: -40px;
+    height: 250px;
+  }
+
+  .thefork-card-img {
+    margin-top: 50px;
+  }
+
+  .thefork-food-photos {
+    margin-top: -42px;
+  }
+
+  .thefork-food-img-1, .thefork-food-img-2, .thefork-food-img-3 {
+    margin-top: 100px;
+  }
+}
+
 /* -------------------------------------- */
 /* --- PROJECT INFORMATIONS */
 /* ------------------------------------------- */
@@ -2372,6 +2620,12 @@ ul {
   }
 }
 
+@media(max-width: 414px) {
+  .show-img {
+    display: none;
+  }
+}
+
 
 @media(max-width: 375px) {
   .info-ultralight-1 {
@@ -2409,5 +2663,4 @@ ul {
   .ultralight-introduction {
     height: 350px;
   }
-
 }

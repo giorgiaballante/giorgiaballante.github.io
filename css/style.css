@@ -330,6 +330,12 @@ h3 {
   }
 }
 
+@media(max-width: 1440px) {
+  .wanderlust-img-home {
+    margin-left: -20px;
+  }
+}
+
 @media(max-width: 1024px) {
   .work {
     flex-direction: column;
@@ -2299,6 +2305,20 @@ a.fml-menu-color {
 /* -------------------------------------- */
 /* --- FADE COLLECTIVE */
 /* ------------------------------------------- */
+@media(max-width: 1440px) {
+  .background-white-fadecollective-1 {
+    margin-top: 570px;
+  }
+
+  .fade-video-title {
+    font-size: 22em;
+  }
+
+  .fade-detail-img-2 {
+    margin-bottom: 1200px;
+  }
+}
+
 @media(max-width: 1024px) {
 
 .fade-home-img {
@@ -2462,6 +2482,16 @@ a.fml-menu-color {
 @media(max-width: 1680px) {
   .description-thefork {
     margin-top: 100px;
+  }
+}
+
+@media(max-width: 1440px) {
+  .description-thefork {
+    margin-top: 200px;
+  }
+
+  .thefork-app-title {
+    margin-top: 570px;
   }
 }
 

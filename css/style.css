@@ -2459,7 +2459,11 @@ a.fml-menu-color {
   }
 
   .fade-detail-img-3 {
-    margin-top: -350px;
+    margin-top: -1200px;
+  }
+
+  .fade-contact-img {
+    margin-top: 350px;
   }
 }
 

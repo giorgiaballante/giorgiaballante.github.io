@@ -741,6 +741,90 @@ ul {
   width: 350px;
 }
 
+/* ------------------- */
+/* 30 HOURS */
+/* --------------------- */
+
+.festival-30hours-body {
+  background-color: #B200FF;
+}
+
+.festival-menu {
+  border-top: 1px solid #00FFFC;
+  border-bottom: 1px solid #00FFFC;
+}
+
+a.festival-menu-color {
+  color: #00FFFC;
+}
+
+.festival-logo {
+  width: 70%;
+  margin-left: 4em;
+  margin-top: 2em;
+}
+
+.festival-img-1 {
+  width: 60%;
+}
+
+.festival-introduction {
+  background-color: #00FFFC;
+  padding-bottom: 30px;
+}
+
+.festival-title, .festival-subtitle, .description-festival {
+  color: #000000;
+}
+
+.description-festival {
+  color: #000000;
+  font-size: 45px;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.collage-festival-img {
+  padding-top: 200px;
+  background-color: #000000;
+}
+.festival-collage-img1 {
+  width: 50%;
+}
+
+.festival-collage-img2 {
+  width: 70%;
+  margin-top: -850px;
+  float: right;
+  z-index: 1;
+}
+
+.festival-collage-img3 {
+  width: 85%;
+  margin-top: -400px;
+  margin-left: 50px;
+  z-index: -2;
+}
+
+.festival-video {
+background-color: #00FFFC;
+height: 60%;
+}
+
+.festival-video-img1 {
+  width: 80%;
+  margin-left: 10em;
+}
+
+.festival-video-title {
+  color: #FF7000;
+  margin-top: -400px;
+}
+
+.typo-big-img {
+  width: 100%;
+}
+
 
 /* -------------------------------------- */
 /* --- DIECI MARI DI RIMINI */

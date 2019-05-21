@@ -330,13 +330,30 @@ h3 {
 
 @media(max-width: 1680px) {
   .wanderlust-img-home {
-    margin-left: 190px;
+    margin-left: 0px;
   }
 }
 
 @media(max-width: 1440px) {
   .wanderlust-img-home {
     margin-left: -20px;
+    width: 110%;
+  }
+
+  .the-fork-img2 {
+    margin-left: -60px;
+  }
+
+  .the-fork-img1 {
+    margin-left: 140px;
+  }
+
+  .ultralight-img {
+    margin-left: 100px;
+  }
+
+  .title-index-ultralight {
+    margin-left: -50px;
   }
 }
 

@@ -328,172 +328,6 @@ h3 {
   margin-left: 300px;
 }
 
-@media(max-width: 1680px) {
-  .wanderlust-img-home {
-    margin-left: 0px;
-  }
-}
-
-@media(max-width: 1440px) {
-  .wanderlust-img-home {
-    margin-left: -20px;
-    width: 110%;
-  }
-
-  .the-fork-img2 {
-    margin-left: -60px;
-  }
-
-  .the-fork-img1 {
-    margin-left: 140px;
-  }
-
-  .ultralight-img {
-    margin-left: 100px;
-  }
-
-  .title-index-ultralight {
-    margin-left: -50px;
-  }
-}
-
-@media(max-width: 1024px) {
-  .work {
-    flex-direction: column;
-  }
-
-  .wanderlust-img-home {
-    margin-top: -500px;
-    width: 100%;
-    margin-left: 300px;
-  }
-
-  .work-ultralight-home {
-    flex-direction: column-reverse;
-    margin-top: 150px;
-  }
-
-  .project-img-ultralight {
-    width: 500px;
-    margin-top: -450px;
-    margin-left:400px;
-  }
-
-  .ultralight-img {
-    margin-left: 50px;
-  }
-
-  .project-img-home-fork {
-    width: 80%;
-    margin-top: -470px;
-    margin-left: 430px;
-  }
-}
-
-@media(max-width: 768px) {
-
-  .wanderlust-img-home {
-    width: 80%;
-    margin-left: 180px;
-    margin-bottom: 50px;
-  }
-
-  .work-ultralight-home {
-    margin-top: 0;
-  }
-
-  .project-img-ultralight {
-    width: 400px;
-    margin-left: 300px;
-    margin-top: -320px;
-  }
-
-  .ultralight-img {
-    width: 60%;
-  }
-
-  .the-fork-img2 {
-    height: 500px;
-  }
-
-  .the-fork-img1 {
-    display: none;
-  }
-
-  .work:last-child {
-    margin-top: 100px;
-  }
-
-  .contact-info {
-    font-size: 1.5em;
-    margin-left: 200px;
-  }
-}
-
-@media(max-width: 414px) {
-  .skill-text {
-    font-size: 30px;
-    width: 70%;
-  }
-
-  .work-wanderlust h3 {
-    font-size: 35px;
-    margin-left: -1em;
-  }
-
-  .work-wanderlust p, .work-ultralight-home p {
-    margin-left: -1.5em;
-  }
-
-  .wanderlust-img-home {
-    width: 60%;
-    margin-left: 0;
-    margin-top: -50px;
-    margin-top: -500px;
-  }
-
-  .work-wanderlust {
-    height: 550px;
-  }
-
-  .work-wanderlust a {
-    margin-top: 300px;
-    margin-left: -1.5em;
-  }
-
-  .work-ultralight-home h3 {
-    font-size: 35px;
-    margin-left: -1em;
-    line-height: 40px;
-  }
-
-  .project-img-ultralight {
-    width: 100%;
-    margin-left: 0;
-    margin-top: -300px;
-  }
-
-  .work-the-fork h3 {
-    font-size: 35px;
-    margin-left: -1em;
-    line-height: 40px;
-  }
-
-  .work-fork-home-color {
-    margin-left: -1.5em;
-  }
-
-  .the-fork-img2 {
-    margin-left: -300px;
-    height: 300px;
-  }
-
-  .work:last-child {
-    height: 600px;
-  }
-}
-
-
 /* --------------------------------------------- */
 /* WANDERLUST PROJECT PAGE */
 /* -------------------------------------------------- */
@@ -642,7 +476,7 @@ a.ultra-menu-color {
 
 .ultralight-introduction {
   background-color: #FFFFFF;
-  height: 1200px;
+  height: 900px;
   margin-left: -2em;
   margin-top: -6em;
 }
@@ -1100,105 +934,7 @@ a.pointe-menu-color {
   width: 45%;
 }
 
-@media(max-width: 1024px) {
-  .project-solution-text {
-    font-size: 40px;
-  }
 
-  .pointe-playlist-img {
-    margin-top: -400px;
-  }
-
-  .background-pointe-screen-1 {
-    height: 900px;
-  }
-
-  .pointe-exercise-img-1 {
-    margin-top: -270px;
-  }
-
-  .background-pointe-screen-2 {
-    height: 550px;
-  }
-}
-
-@media(max-width: 768px) {
-  .description-pointe {
-    font-size: 30px;
-  }
-
-  .project-solution-text {
-    font-size: 35px;
-  }
-
-  .background-pointe-screen-1 {
-    height: 600px;
-  }
-}
-
-@media(max-width: 414px) {
-  .description-pointe {
-    font-size: 18px;
-  }
-
-  .background-pointe-logo {
-    margin-top: 500px;
-    height: 300px;
-  }
-
-  .project-solution-text {
-    font-size: 20px;
-  }
-  .pointe-exercise-img-1 {
-    margin-left: 50px;
-    margin-top: -100px;
-  }
-
-  .background-pointe-screen-1 {
-    height: 400px;
-  }
-
-  .pointe-position-img {
-    width: 70%;
-    margin-top: -50px;
-  }
-
-  .background-pointe-screen-2 {
-    height: 400px;
-  }
-
-  .pointe-project-title {
-    margin-left: 2em;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 1.2em;
-    margin-top: 50px;
-  }
-
-  .proiezione-1-pointe {
-    width: 70%;
-    margin-right: 1em;
-  }
-
-  .proiezione-2-pointe {
-    margin-left: 3em;
-    margin-top: 10px;
-    width: 50%;
-  }
-
-  .pointe-icon-title {
-    margin-left: 2em;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 1.2em;
-    margin-top: 170px;
-  }
-
-  .icon-set-pointe-img {
-    width: 70%;
-    margin-left: 1.5em;
-  }
-}
 
 
 /* -------------------------------------- */
@@ -1716,12 +1452,6 @@ a.fml-menu-color {
 
 .img-arrow-link {
   margin-top: 40px;
-}
-
-@media(max-width: 414px) {
-  .arrow-white-works {
-    margin-left: 25px;
-  }
 }
 
 
@@ -2912,5 +2642,294 @@ ul {
     font-size: 30px;
     width: 57%;
     margin-right: -20px;
+  }
+}
+
+
+/* -------------------------------------- */
+/* --- WORKS */
+/* ------------------------------------------- */
+
+@media(max-width: 414px) {
+  .arrow-white-works {
+    margin-left: 25px;
+  }
+}
+
+
+/* -------------------------------------- */
+/* --- HOME */
+/* ------------------------------------------- */
+
+
+
+@media(max-width: 1680px) {
+  .wanderlust-img-home {
+    margin-left: 0px;
+  }
+}
+
+@media(max-width: 1440px) {
+  .wanderlust-img-home {
+    margin-left: -20px;
+    width: 110%;
+  }
+
+  .the-fork-img2 {
+    margin-left: -60px;
+  }
+
+  .the-fork-img1 {
+    margin-left: 140px;
+  }
+
+  .ultralight-img {
+    margin-left: 100px;
+  }
+
+  .title-index-ultralight {
+    margin-left: -50px;
+  }
+}
+
+@media(max-width: 1024px) {
+  .work {
+    flex-direction: column;
+  }
+
+  .wanderlust-img-home {
+    margin-top: -500px;
+    width: 100%;
+    margin-left: 300px;
+  }
+
+  .work-ultralight-home {
+    flex-direction: column-reverse;
+    margin-top: 150px;
+  }
+
+  .project-img-ultralight {
+    width: 500px;
+    margin-top: -450px;
+    margin-left:400px;
+  }
+
+  .ultralight-img {
+    margin-left: 50px;
+  }
+
+  .project-img-home-fork {
+    width: 80%;
+    margin-top: -470px;
+    margin-left: 430px;
+  }
+}
+
+@media(max-width: 768px) {
+
+  .wanderlust-img-home {
+    width: 80%;
+    margin-left: 180px;
+    margin-bottom: 50px;
+  }
+
+  .work-ultralight-home {
+    margin-top: 0;
+  }
+
+  .project-img-ultralight {
+    width: 400px;
+    margin-left: 300px;
+    margin-top: -320px;
+  }
+
+  .ultralight-img {
+    width: 60%;
+  }
+
+  .the-fork-img2 {
+    height: 500px;
+  }
+
+  .the-fork-img1 {
+    display: none;
+  }
+
+  .work:last-child {
+    margin-top: 100px;
+  }
+
+  .contact-info {
+    font-size: 1.5em;
+    margin-left: 200px;
+  }
+}
+
+@media(max-width: 414px) {
+  .skill-text {
+    font-size: 30px;
+    width: 70%;
+  }
+
+  .work-wanderlust h3 {
+    font-size: 35px;
+    margin-left: -1em;
+  }
+
+  .work-wanderlust p, .work-ultralight-home p {
+    margin-left: -1.5em;
+  }
+
+  .wanderlust-img-home {
+    width: 60%;
+    margin-left: 0;
+    margin-top: -50px;
+    margin-top: -500px;
+  }
+
+  .work-wanderlust {
+    height: 550px;
+  }
+
+  .work-wanderlust a {
+    margin-top: 300px;
+    margin-left: -1.5em;
+  }
+
+  .work-ultralight-home h3 {
+    font-size: 35px;
+    margin-left: -1em;
+    line-height: 40px;
+  }
+
+  .project-img-ultralight {
+    width: 100%;
+    margin-left: 0;
+    margin-top: -300px;
+  }
+
+  .work-the-fork h3 {
+    font-size: 35px;
+    margin-left: -1em;
+    line-height: 40px;
+  }
+
+  .work-fork-home-color {
+    margin-left: -1.5em;
+  }
+
+  .the-fork-img2 {
+    margin-left: -300px;
+    height: 300px;
+  }
+
+  .work:last-child {
+    height: 600px;
+  }
+}
+
+
+
+/* -------------------------------------- */
+/* --- POINTE */
+/* ------------------------------------------- */
+
+@media(max-width: 1024px) {
+  .project-solution-text {
+    font-size: 40px;
+  }
+
+  .pointe-playlist-img {
+    margin-top: -400px;
+  }
+
+  .background-pointe-screen-1 {
+    height: 900px;
+  }
+
+  .pointe-exercise-img-1 {
+    margin-top: -270px;
+  }
+
+  .background-pointe-screen-2 {
+    height: 550px;
+  }
+}
+
+@media(max-width: 768px) {
+  .description-pointe {
+    font-size: 30px;
+  }
+
+  .project-solution-text {
+    font-size: 35px;
+  }
+
+  .background-pointe-screen-1 {
+    height: 600px;
+  }
+}
+
+@media(max-width: 414px) {
+  .description-pointe {
+    font-size: 18px;
+  }
+
+  .background-pointe-logo {
+    margin-top: 500px;
+    height: 300px;
+  }
+
+  .project-solution-text {
+    font-size: 20px;
+  }
+  .pointe-exercise-img-1 {
+    margin-left: 50px;
+    margin-top: -100px;
+  }
+
+  .background-pointe-screen-1 {
+    height: 400px;
+  }
+
+  .pointe-position-img {
+    width: 70%;
+    margin-top: -50px;
+  }
+
+  .background-pointe-screen-2 {
+    height: 400px;
+  }
+
+  .pointe-project-title {
+    margin-left: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    margin-top: 50px;
+  }
+
+  .proiezione-1-pointe {
+    width: 70%;
+    margin-right: 1em;
+  }
+
+  .proiezione-2-pointe {
+    margin-left: 3em;
+    margin-top: 10px;
+    width: 50%;
+  }
+
+  .pointe-icon-title {
+    margin-left: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    margin-top: 170px;
+  }
+
+  .icon-set-pointe-img {
+    width: 70%;
+    margin-left: 1.5em;
   }
 }

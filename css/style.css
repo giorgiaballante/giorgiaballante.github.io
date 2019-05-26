@@ -1376,22 +1376,16 @@ a.fade-menu-color {
 /* --- FML GALLERY */
 /* ------------------------------------------- */
 
+.fml-body {
+  background-color: #4BFF00;
+}
+
 .fml-gallery-menu {
   border-color: #1100FF;
 }
 
 a.fml-menu-color {
   color: #1100FF;
-}
-
-.background-fml-color {
-  background-color: #4BFF00;
-  margin-top: -150px;
-  height: 1000px;
-}
-
-.fml-introduction {
-  margin-top: -1000px;
 }
 
 .title-fml, .subtitle-fml {
@@ -1402,7 +1396,15 @@ a.fml-menu-color {
   width: 70%;
   float: right;
   margin-left: 4em;
-  margin-top: -100px;
+}
+
+.fml-introduction {
+  height: 600px;
+}
+
+.background-fml-description {
+  background-color: #1100FF;
+  height: 1000px;
 }
 
 .description-fml {
@@ -2075,10 +2077,6 @@ a.fml-menu-color {
   .background-fml-color {
     height: 800px;
   }
-
-  .fml-introduction {
-    margin-top: -850px;
-  }
   
   .description-fml {
     margin-top: 150px;
@@ -2102,12 +2100,8 @@ a.fml-menu-color {
     margin-top: -10px;
   }
 
-  .background-fml-color {
+  .background-fml-description {
     height: 700px;
-  }
-
-  .fml-introduction {
-    margin-top: -750px;
   }
 
   .description-fml {
@@ -2138,23 +2132,27 @@ a.fml-menu-color {
     font-size: 1.5em;
   }
 
+  h1.title-fml {
+    margin-top: 0;
+  }
+
   .project-subtitle {
     font-size: 1em;
     margin-left: 2.2em;
     margin-top: -5px;
   }
 
-  .background-fml-color {
-    height: 400px;
-  }
-
   .fml-introduction {
-    margin-top: -480px;
+    height: 400px;
   }
 
   .description-fml {
     font-size: 1em;
     margin-top: 50px;
+  }
+
+  .background-fml-description {
+    height: 250px;
   }
 
   .fml-img-1 {
@@ -2189,6 +2187,10 @@ a.fml-menu-color {
   .fml-book-img {
     margin-top: -10px;
   }
+
+  .fml-li {
+    margin-left: 0;
+  }
 }
 
 @media(max-width: 375px) {
@@ -2205,11 +2207,7 @@ a.fml-menu-color {
   .background-fml-color {
     height: 400px;
   }
-
-  .fml-introduction {
-    margin-top: -480px;
-  }
-
+  
   .description-fml {
     font-size: 1em;
     margin-top: 50px;

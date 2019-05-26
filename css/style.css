@@ -3042,6 +3042,23 @@ ul {
   }
 }
 
+@media(max-width: 375px) {
+  .skill-text {
+    width: 100%;
+  }
+
+  .personal-info-text {
+    margin-left: -1em;
+  }
+
+  .home-section {
+    margin-left: 2em;
+  }
+
+  .wanderlust-img-home {
+    width: 55%;
+  }
+}
 
 
 /* -------------------------------------- */

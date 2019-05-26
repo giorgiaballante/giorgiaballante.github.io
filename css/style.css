@@ -2027,6 +2027,7 @@ a.fml-menu-color {
 }
 
 @media(max-width: 768px) {
+
   .diecimari-photo3 {
     margin-left: 220px;
     margin-top: -140px;
@@ -2043,7 +2044,7 @@ a.fml-menu-color {
   }
 
   .description-dieci {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .diecimari-photo3 {
@@ -2051,6 +2052,16 @@ a.fml-menu-color {
     margin-top: -80px;
   }
 
+  .diecimari-poster3 {
+    margin-top: -50px;
+  }
+}
+
+@media(max-width: 320px) {
+  .diecimari-photo3 {
+    margin-left: 100px;
+    margin-top: -60px;
+  }
 }
 
 
@@ -2301,10 +2312,16 @@ a.fml-menu-color {
     margin-left: 1em;
   }
 
+  .title-diecimari {
+    margin-left: 1.5em;
+    margin-top: 50px;
+  }
+
   .description-fade {
     font-size: 2em;
     margin-left: 2.3em;
   }
+
   .video-title {
     font-size: 11em;
   }
@@ -2655,12 +2672,17 @@ ul {
     margin-left: 1em;
   }
 
+  .title-diecimari {
+    margin-left: 2em;
+  }
+
   .ultralight-title {
     margin-left: 2em;
   }
 
   h1.project-title.title-diecimari {
     margin-top: -20px;
+    margin-left: 2.5em;
   }
 
   .project-subtitle {
@@ -2668,6 +2690,10 @@ ul {
     width: 80%;
     margin-left: 2em;
     margin-top: 5px;
+  }
+
+  .subtitle-diecimari {
+    margin-left: 4em;
   }
 
   .ultralight-subtitle {
@@ -2765,6 +2791,10 @@ ul {
 
   .project-subtitle {
     margin-left: 1.5em;
+  }
+
+  .subtitle-diecimari {
+    margin-left: 4em;
   }
 
   .ultralight-introduction {

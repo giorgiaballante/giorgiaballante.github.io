@@ -942,20 +942,26 @@ a.pointe-menu-color {
 /* --- PILLS */
 /* ------------------------------------------- */
 
+.pills-body {
+  background-color: #E83F4E;
+}
+
+.pills-menu {
+  color: #000000;
+}
+
 a.pills-menu-color {
   color: #000000;
 }
 
-.background-pills-color {
-  background-color: #E83F4E;
-  margin-top: -150px;
-  height: 1000px;
-}
-
 .pills-logo-img {
-  margin-top: -1000px;
   margin-left: 10em;
   width: 70%;
+}
+
+.pills-introduction {
+  background-color: #000000;
+  height: 100vh;
 }
 
 .subtitle-pills {
@@ -997,6 +1003,10 @@ a.pills-menu-color {
 }
 
 .pills-illusration {
+  background-color: #000000;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -1012,6 +1022,11 @@ a.pills-menu-color {
   width: 30%;
   align-self: center;
   margin-left: 2em;
+}
+
+.background-pills-last-photo {
+  background-color: #000000; 
+  margin-top: 50px;
 }
 
 .pills-page-photo-img, .pills-photos {
@@ -1884,8 +1899,13 @@ a.fml-menu-color {
 
 @media(max-width: 1024px) {
 
-  .background-pills-color {
-    height: 800px;
+  .pills-introduction {
+    margin-top: -200px;
+    height: 75vh;
+  }
+
+  .pills-img-1 {
+    padding-top: 100px;
   }
 
   .pills-logo-img {
@@ -1916,8 +1936,8 @@ a.fml-menu-color {
 }
 
 @media(max-width: 414px) {
-  .background-pills-color {
-    height: 450px;
+  .pills-introduction {
+    height: 50vh;
   }
 
   .pills-logo-img {
@@ -1927,7 +1947,7 @@ a.fml-menu-color {
   }
 
   .description-pills {
-    font-size: 1.3em;
+    font-size: 1em;
   }
 
   .pills-indice-img {
@@ -1949,6 +1969,51 @@ a.fml-menu-color {
   .pills-venezia-illustration-img {
     width: 50%;
     margin-top: 50px;
+  }
+
+  .pills-img-1 {
+    flex-direction: column;
+  }
+
+  .pills-indice-img {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .pills-restaurant-name-img {
+    width: 90%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .pills-li {
+    margin-left: 0;
+  }
+}
+
+@media(max-width: 320px) {
+
+  .pills-introduction {
+    height: 75vh;
+  }
+
+  .description-pills {
+    font-size: 1em;
+  }
+
+  .pills-img-1 {
+    flex-direction: column;
+  }
+
+  .pills-indice-img {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .pills-restaurant-name-img {
+    width: 90%;
+    margin-left: 0;
+    margin-top: 20px;
   }
 }
 /* -------------------------------------- */
@@ -2646,7 +2711,7 @@ ul {
 
   li {
     font-size: 25px;
-    margin-left: -40px;
+    margin-left: 0px;
     width: 300px;
   }
 
@@ -2658,6 +2723,14 @@ ul {
     margin-left: 0;
     margin-top: -100px;
     padding-bottom: 20px;
+  }
+
+  .pills-li {
+    margin-left: 0;
+  }
+
+  .info-title-ultralight {
+    margin-left: 20px;
   }
 }
 

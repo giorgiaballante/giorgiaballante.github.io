@@ -369,13 +369,13 @@ h3 {
   width: 45%;
   float: right;
   margin-right: 4em;
-  margin-top: -40em;
+  margin-top: -20em;
 }
 
 .icon-wand-title {
   float: right;
   clear: both;
-  margin-right: 4em;
+  margin-right: 2em;
   margin-top: 40px;
   
   text-transform: uppercase;
@@ -389,8 +389,8 @@ h3 {
 
 .wand-img-icons {
   width: 30%;
-  margin-left: 250px;
-  margin-top: 120px;
+  margin-left: 100px;
+  margin-top: 320px;
   padding-bottom: 60px;
 }
 
@@ -2226,7 +2226,7 @@ a.fml-menu-color {
   .project-title {
     font-size: 4em;
     line-height: 1.3em;
-    margin-left: 1.5em;
+    margin-left: 1em;
   }
 
   .description-fade {
@@ -2572,7 +2572,7 @@ ul {
 
   li {
     font-size: 25px;
-    margin-left: -20px;
+    margin-left: -40px;
   }
 
   .project-title {
@@ -2591,28 +2591,56 @@ ul {
     margin-left: 2em;
     margin-top: 5px;
   }
-}
 
-@media(max-width: 414px) {
-  .show-img {
+  .wanderlust-work-img:hover .show-img {
     display: none;
+  }
+
+  .info-title-ultralight {
+    margin-left: 0;
+  }
+
+  .arrow-white-works {
+    margin-left: 0;
+    margin-top: -100px;
+    padding-bottom: 20px;
   }
 }
 
 
 @media(max-width: 375px) {
+
+  .menu {
+    margin: 2em 2em;
+  }
+
   .info-ultralight-1 {
     flex-direction: column;
     font-size: 0.6em;
   }
 
+  .info-ultralight-sx-1 {
+    margin-left: -20px;
+  }
+
   li {
     font-size: 25px;
-    margin-left: -20px;
+    margin-left: -40px;
+    width: 300px;
+  }
+
+  .wanderlust-work-img:hover .show-img {
+    display: none;
+  }
+
+  .arrow-white-works {
+    margin-left: 0;
+    margin-top: -100px;
+    padding-bottom: 20px;
   }
 }
 
-@media(max-width: 300px) {
+@media(max-width: 320px) {
   .info-ultralight-1 {
     flex-direction: column;
     font-size: 0.6em;
@@ -2620,7 +2648,18 @@ ul {
 
   li {
     font-size: 25px;
-    margin-left: -20px;
+    width: 200px;
+  }
+
+  .arrow-white-works {
+    margin-left: 0;
+    margin-top: -100px;
+    padding-bottom: 20px;
+  }
+
+  .menu {
+    margin: 2em 1em;
+    width: 90%;
   }
 }
 
@@ -2635,6 +2674,18 @@ ul {
 
   .ultralight-introduction {
     height: 350px;
+  }
+
+  .info-title-ultralight {
+    margin-left: 20px;
+  }
+
+  .info-ultralight-dx {
+    margin-left: -20px;
+  }
+
+  .menu a {
+    font-size: 11px;
   }
 }
 
@@ -2655,17 +2706,6 @@ ul {
     font-size: 30px;
     width: 57%;
     margin-right: -20px;
-  }
-}
-
-
-/* -------------------------------------- */
-/* --- WORKS */
-/* ------------------------------------------- */
-
-@media(max-width: 414px) {
-  .arrow-white-works {
-    margin-left: 25px;
   }
 }
 

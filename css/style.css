@@ -1259,6 +1259,10 @@ a.thefork-menu-color {
 /* --- FADE COLLECTIVE */
 /* ------------------------------------------- */
 
+.fade-collective-body {
+  background-color: #FF0000;
+}
+
 .fadecollective-menu {
   border-color: #000000;
 }
@@ -1267,11 +1271,11 @@ a.fade-menu-color {
   color: #000000;
 }
 
-.background-fadecollective-color {
+/* .background-fadecollective-color {
   background-color: #FF0000;
   margin-top: -150px;
   height: 1100px;
-}
+} */
 
 .fade-home-img {
   width: 80%;
@@ -1281,6 +1285,7 @@ a.fade-menu-color {
 
 .fade-introduction {
   margin-top: -90px;
+  background-color: #000000;
 }
 
 .subtitle-fade {
@@ -1297,7 +1302,6 @@ a.fade-menu-color {
 
 .background-white-fadecollective-1 {
   background-color: #FFFFFF;
-  margin-top: 500px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -1305,6 +1309,11 @@ a.fade-menu-color {
 .fade-detail-img-1 {
   width: 80%;
   margin-left: 10em;
+}
+
+.video-fade {
+  background-color: #000000;
+  height: 100vh;
 }
 
 .fade-collective-video {
@@ -1319,24 +1328,30 @@ a.fade-menu-color {
 
 .background-white-fadecollective-2 {
   background-color: #FFFFFF;
-  margin-top: 500px;
+  height: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .fade-detail-img-2 {
   margin-left: 4em;
-  margin-bottom: 400px;
+  margin-top: 100px;
 }
 
 .fade-detail-img-3 {
   margin-right: 4em;
+  float: right;
   margin-top: 500px;
 }
 
 .fade-contact-img {
   width: 80%;
   margin-left: 10em;
+}
+
+.background-info-fade {
+  background-color: #000000;
+  height: 100%;
 }
 
 
@@ -1618,7 +1633,7 @@ a.fml-menu-color {
   }
 
   .wand-img-pattern-white {
-    margin-left: 1.5em;
+    margin-left: 2em;
   }
 }
 
@@ -2144,21 +2159,12 @@ a.fml-menu-color {
 /* -------------------------------------- */
 /* --- FADE COLLECTIVE */
 /* ------------------------------------------- */
-@media(max-width: 1440px) {
-  .background-white-fadecollective-1 {
-    margin-top: 570px;
-  }
-
-  .fade-video-title {
-    font-size: 22em;
-  }
-
-  .fade-detail-img-2 {
-    margin-bottom: 1200px;
-  }
-}
 
 @media(max-width: 1024px) {
+
+.fade-introduction {
+  height: 80vh;
+}
 
 .fade-home-img {
   margin-left: 50px;
@@ -2172,12 +2178,12 @@ a.fml-menu-color {
   margin-right: 4em;
 }
 
-.background-white-fadecollective-1 {
-  margin-top: 850px;
-}
-
 .fade-detail-img-1 {
   margin-top: 100px;
+}
+
+.video-fade {
+  height: 70vh;
 }
 
 .video-title {
@@ -2230,12 +2236,12 @@ a.fml-menu-color {
     font-size: 11em;
   }
 
-  .background-white-fadecollective-1 {
-    margin-top: 700px;
-  }
-
   .fade-collective-video {
     margin-left: 70px;
+  }
+
+  .background-white-fadecollective-2 {
+    height: 120vh;
   }
 
   .fade-detail-img-1 {
@@ -2245,17 +2251,23 @@ a.fml-menu-color {
 
   .fade-detail-img-3 {
     margin-right: 2em;
+    margin-top: 20px;
     width: 70%;
   }
 }
 
 @media(max-width: 414px) {
-  .background-fadecollective-color {
-    height: 350px;
-  }
 
   .background-fadecollective-color {
-    height: 350px;
+    height: 300px;
+  }
+
+  .fade-home-img {
+    margin-top: 0px;
+  }
+
+  .fade-introduction {
+    height: 60vh;
   }
 
   .title-fade {
@@ -2268,13 +2280,13 @@ a.fml-menu-color {
     margin-left: 2em;
   }
 
-  .background-white-fadecollective-1 {
-    margin-top: 300px;
-  }
-
   .fade-detail-img-1 {
     margin-top: 0;
     margin-left: 2em;
+  }
+
+  .video-fade {
+    height: 60vh;
   }
 
   .video-title {
@@ -2287,7 +2299,6 @@ a.fml-menu-color {
   }
 
   .background-white-fadecollective-2 {
-    margin-top: 200px;
     height: 550px;
   }
 
@@ -2295,14 +2306,6 @@ a.fml-menu-color {
     margin-top: -150px;
     width: 70%;
     margin-left: 2em;
-  }
-
-  .fade-detail-img-3 {
-    margin-top: -1200px;
-  }
-
-  .fade-contact-img {
-    margin-top: 350px;
   }
 }
 
@@ -2314,6 +2317,15 @@ a.fml-menu-color {
   }
 }
 
+@media(max-width: 320px) {
+  .background-fadecollective-color {
+    height: 230px;
+  }
+
+  .fade-introduction {
+    height: 80vh;
+  }
+}
 
 
 
@@ -2565,7 +2577,7 @@ ul {
   .project-title {
     font-size: 2em;
     width: 80%;
-    margin-left: 3em;
+    margin-left: 1em;
   }
 
   h1.project-title.title-diecimari {
@@ -2575,7 +2587,7 @@ ul {
   .project-subtitle {
     font-size: 1em;
     width: 80%;
-    margin-left: 6em;
+    margin-left: 2em;
     margin-top: 5px;
   }
 }
@@ -2617,7 +2629,7 @@ ul {
   }
 
   .project-subtitle {
-    margin-left: 4.5em;
+    margin-left: 1.5em;
   }
 
   .ultralight-introduction {

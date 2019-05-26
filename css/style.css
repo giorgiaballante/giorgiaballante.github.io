@@ -2518,6 +2518,7 @@ a.fml-menu-color {
 
   .thefork-profile-img {
     margin-left: 50px;
+    width: 70%;
   }
 
   .thefork-profilepage-title {
@@ -2526,6 +2527,10 @@ a.fml-menu-color {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 1.2em;
+  }
+
+  .thefork-map-page {
+    flex-direction: column;
   }
 
   .thefork-map-title {
@@ -2537,8 +2542,17 @@ a.fml-menu-color {
     font-size: 1.2em;
   }
 
+  .thefork-map-img, .thefork-home-img {
+    width: 50%;
+  }
+
+  .thefork-map-img {
+    align-self: flex-start
+  }
+
   .thefork-profile-page {
     padding-bottom: 50px;
+    flex-direction: column;
   }
 
   .thefork-icon-title {
@@ -2554,6 +2568,7 @@ a.fml-menu-color {
   .thefork-iconset-img {
     margin-left: -300px;
     margin-top: 100px;
+    width: 80%;
   }
 
   .thefork-card-title {
@@ -2562,7 +2577,7 @@ a.fml-menu-color {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
-    margin-top: 30px;
+    margin-top: 60px;
     font-size: 1.2em;
   }
 
@@ -2572,7 +2587,8 @@ a.fml-menu-color {
   }
 
   .thefork-card-img {
-    margin-top: 50px;
+    margin-top: 0px;
+    width: 70%;
   }
 
   .thefork-food-photos {
@@ -3070,7 +3086,7 @@ ul {
 
 @media(max-width: 414px) {
   .description-pointe {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .background-pointe-logo {
@@ -3079,7 +3095,7 @@ ul {
   }
 
   .project-solution-text {
-    font-size: 20px;
+    font-size: 18px;
   }
   .pointe-exercise-img-1 {
     margin-left: 50px;

@@ -20,6 +20,7 @@
 }
 
 body {
+  width: 100vw;
   margin: 0;
   background-color: #000000;
 
@@ -53,6 +54,10 @@ a {
   text-decoration: none;
   color: #FFFFFF;
   padding-left: 20px;
+}
+
+.contact-list a {
+  color: #FFFFFF;
 }
 
 .gb-logo {

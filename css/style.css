@@ -1813,6 +1813,10 @@ a.fml-menu-color {
     margin-left: 2em;
     width: 50%;
   }
+
+  .info-ultralight-sx-1 {
+    width: 100px;
+  }
 }
 
 @media(max-width: 1024px) {
@@ -1860,9 +1864,9 @@ a.fml-menu-color {
 @media(max-width: 414px) {
 
   body {
-    width: 100vw;
+    overflow-x: hidden;
   }
-  
+
   .ultralight-introduction {
     height: 430px;
   }
@@ -2063,7 +2067,7 @@ a.fml-menu-color {
   }
 
   .diecimari-photo3 {
-    margin-left: 120px;
+    margin-left: 110px;
     margin-top: -80px;
   }
 
@@ -2639,7 +2643,7 @@ a.fml-menu-color {
 }
 
 .info-ultralight-dx-1 {
-  width: 900px;
+  width: 100%;
 }
 
 .spd-info-lungo {
@@ -2866,11 +2870,6 @@ ul {
 
 /* CONTACT PAGE  */
 
-@media(max-width: 768px) {
-  .contact-list {
-    margin-left: -50px;
-  }
-}
 @media(max-width: 414px) {
   .contact-list {
     font-size: 20px;

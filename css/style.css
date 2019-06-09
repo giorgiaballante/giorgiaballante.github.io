@@ -2992,9 +2992,22 @@ ul {
 }
 
 @media(max-width: 414px) {
+
+  .project-img-home-fork {
+    display: none;
+  }
+
+  .the-fork-img2 {
+    display: block;
+  }
+
+  .project-img {
+    width: 100%;
+  }
+  
   .skill-text {
     font-size: 30px;
-    width: 70%;
+    width: 100%;
   }
 
   .work-wanderlust h3 {

@@ -167,6 +167,15 @@ h3 {
   border-bottom: 1px solid #FFFFFF;
 }
 
+.link-home-project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.work-ultralight-view-project {
+  color: #ffffff;
+  grid-column: 1 / 2; 
+}
+
 /* works */
 
 .work {
@@ -266,8 +275,6 @@ h3 {
   margin: 4em 0;
   height: 750px;
   background-color: #773DD4;
-
-  display: flex;
 }
 
 .work-the-fork h3, a, p {
@@ -2906,7 +2913,6 @@ ul {
 
   .project-img-home-fork {
     width: 80%;
-    margin-top: -470px;
     margin-left: 430px;
   }
 }

@@ -533,18 +533,18 @@ a.ultra-menu-color {
 .ultralight-img-2 {
   width: 70%;
   z-index: 1;
-  margin-top: -400px;
+  margin-top: -22em;
 }
 
 .ultralight-img-collage-1 {
   width: 90%;
-  margin-left: 100px;
+  margin-left: 4em;
   margin-top: 8em;
 }
 
 
 .ultralight-img-verde {
-  float: left;
+  margin-left: 4em;
   width: 60%;
 }
 
@@ -1579,7 +1579,7 @@ a.fml-menu-color {
 
 @media(max-width: 414px) {
   .description-wanderlust {
-    font-size: 1em;
+    font-size: 1.2em;
     margin-top: 10px;
   }
 
@@ -1660,7 +1660,7 @@ a.fml-menu-color {
 /* --- ULTRALIGHT BEAM */
 /* ------------------------------------------- */
 
-@media(max-width: 1000px) {
+@media(max-width: 1024px) {
   .ultralight-title {
     margin-left: 1.5em;
     padding-top: 50px;
@@ -1689,7 +1689,7 @@ a.fml-menu-color {
   }
 }
 
-@media(max-width: 700px) {
+@media(max-width: 768px) {
   .ultralight-introduction {
     height: 610px;
     width: 100%;
@@ -1716,33 +1716,7 @@ a.fml-menu-color {
   }
 }
 
-@media(max-width: 650px) {
-
-  .ultralight-title {
-    font-size: 2.5em;
-    width: 100%;
-    margin-left: 2.3em;
-    margin-top: 100px;
-  }
-
-  .ultralight-img-collage-1 {
-    margin-left: 25px;
-  }
-
-  .ultralight-img-collage-2 {
-    margin-left: 100px;
-    padding-bottom: 50px;
-  }
-
-  .ultralight-img-2 {
-    margin-top: -200px;
-    }
-}
-
-@media(max-width: 470px) {
-  body {
-    width: 100vw;
-  }
+@media(max-width: 414px) {
 
   .ultralight-title {
     font-size: 2em;
@@ -1791,55 +1765,6 @@ a.fml-menu-color {
   .info-ultralight-sx-1 {
     width: 100px;
   }
-}
-
-@media(max-width: 1024px) {
-  .ultralight-introduction {
-    height: 850px;
-  }
-
-  .ultralight-img-2 {
-    margin-top: -300px;
-  }
-
-  .ultralight-img-collage-1 {
-    margin-left: 50px;
-  }
-
-  .ultralight-img-verde {
-    margin-left: 40px;
-    margin-top: 20px;
-  }
-
-  .ultralight-img-repeat-2 {
-    margin-top: -200px;
-  }
-
-  .ultralight-img-collage-2 {
-    margin-top: 6em;
-    padding-bottom: 40px;
-  }
-}
-
-@media(max-width: 768px) {
-  .ultralight-introduction {
-    height: 700px;
-  }
-
-  .ultralight-img-2 {
-    margin-top: -250px;
-  }
-
-  .ultralight-img-collage-2 {
-    margin-left: 350px;
-  }
-}
-
-@media(max-width: 414px) {
-
-  body {
-    overflow-x: hidden;
-  }
 
   .ultralight-introduction {
     height: 430px;
@@ -1864,6 +1789,10 @@ a.fml-menu-color {
   .ultralight-img-collage-2 {
     margin-left: 100px;
   }
+}
+
+@media(max-width: 375px) {
+
 }
 
 @media(max-width: 320px) {
@@ -1929,10 +1858,6 @@ a.fml-menu-color {
 }
 
 @media(max-width: 414px) {
-  .pills-introduction {
-    height: 50vh;
-  }
-
   .pills-logo-img {
     margin-left: 2.5em;
     margin-bottom: 100px;
@@ -1940,7 +1865,7 @@ a.fml-menu-color {
   }
 
   .description-pills {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   .pills-indice-img {
@@ -2037,7 +1962,7 @@ a.fml-menu-color {
   }
 
   .description-dieci {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   .diecimari-photo3 {
@@ -2143,10 +2068,6 @@ a.fml-menu-color {
     margin-top: 50px;
   }
 
-  .background-fml-description {
-    height: 250px;
-  }
-
   .fml-img-1 {
     margin-top: -10px;
     margin-left: 10px;
@@ -2249,6 +2170,7 @@ a.fml-menu-color {
 
 .description-fml {
   margin-right: 4em;
+  font-size: 1.2em;
 }
 
 .fade-detail-img-1 {
@@ -2298,7 +2220,7 @@ a.fml-menu-color {
   .project-title {
     font-size: 4em;
     line-height: 1.3em;
-    margin-left: 1em;
+    margin-left: 1.5em;
   }
 
   .title-diecimari {
@@ -2345,16 +2267,12 @@ a.fml-menu-color {
     margin-top: 0px;
   }
 
-  .fade-introduction {
-    height: 60vh;
-  }
-
   .title-fade {
     margin-top: 100px;
   }
 
   .description-fade {
-    font-size: 1em;
+    font-size: 1.2em;
     margin-top: 30px;
     margin-left: 2em;
   }
@@ -2470,7 +2388,6 @@ a.fml-menu-color {
 }
 
 @media(max-width: 414px) {
-
   .background-thefork-color {
     height: 600px;
   }
@@ -2506,6 +2423,8 @@ a.fml-menu-color {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 1.2em;
+
+    margin-top: 4em;
   }
 
   .thefork-profile-img {
@@ -2514,11 +2433,12 @@ a.fml-menu-color {
   }
 
   .thefork-profilepage-title {
-    width: 90%;
+    width: 80%;
     margin-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 1.2em;
+    margin-top: 4em;
   }
 
   .thefork-map-page {
@@ -2526,12 +2446,13 @@ a.fml-menu-color {
   }
 
   .thefork-map-title {
-    width: 40%;
+    width: 80%;
     margin-left: 2em;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 10px;
     font-size: 1.2em;
+    margin-top: 4em;
   }
 
   .thefork-map-img, .thefork-home-img {
@@ -2581,6 +2502,7 @@ a.fml-menu-color {
   .thefork-card-img {
     margin-top: 0px;
     width: 70%;
+    margin-left: 0;
   }
 
   .thefork-food-photos {
@@ -2599,6 +2521,63 @@ a.fml-menu-color {
 
   .thefork-card-img {
     margin-left: 100px;
+  }
+}
+
+/* -------------------------------------- */
+/* --- 30 HOURS */
+/* ------------------------------------------- */
+@media(max-width: 1024px) {
+  .description-festival {
+    font-size: 2em;
+  }
+
+  .festival-img-1 {
+    width: 100%;
+  }
+
+  .festival-collage-img1 {
+    width: 80%;
+  }
+
+  .festival-collage-img2, .festival-collage-img3 {
+    margin-top: 0;
+  }
+
+  .festival-video {
+    height: 50vh;
+  }
+
+  .festival-video-title {
+    margin-top: -200px;
+  }
+  
+}
+
+@media(max-width: 414px) {
+  .festival-img-1 {
+    width: 80%;
+    margin-left: 2em;
+  }
+
+  .description-festival {
+    font-size: 1.2em;
+  }
+
+  h1.project-title.festival-title {
+    margin-top: 0;
+  }
+
+  .collage-festival-img {
+    padding-top: 0;
+  }
+
+  .festival-collage-img2, .festival-collage-img3 {
+    margin-top: 0;
+  }
+
+  .festival-video-img1 {
+    margin-left: 4em;
   }
 }
 
@@ -2688,7 +2667,7 @@ ul {
   .project-title {
     font-size: 2em;
     width: 80%;
-    margin-left: 1em;
+    margin-left: 2em;
   }
 
   .title-diecimari {
@@ -2700,7 +2679,7 @@ ul {
   }
 
   .ultralight-title {
-    margin-left: 2em;
+    margin-left: 3em;
   }
 
   h1.project-title.title-diecimari {
@@ -2711,16 +2690,16 @@ ul {
   .project-subtitle {
     font-size: 1em;
     width: 80%;
-    margin-left: 2em;
+    margin-left: 4em;
     margin-top: 5px;
   }
 
   .subtitle-diecimari {
-    margin-left: 4em;
+    margin-left: 5em;
   }
 
   .ultralight-subtitle {
-    margin-left: 4em;
+    margin-left: 6em;
   }
 
   .wanderlust-work-img:hover .show-img {
@@ -2813,7 +2792,7 @@ ul {
   }
 
   .project-subtitle {
-    margin-left: 1.5em;
+    margin-left: 3em;
   }
 
   .subtitle-diecimari {
@@ -3055,7 +3034,11 @@ ul {
   }
 
   .wanderlust-img-home {
-    width: 55%;
+    width: 100%;
+  }
+
+  .li-home {
+    font-size: 20px;
   }
 }
 
@@ -3102,7 +3085,7 @@ ul {
 
 @media(max-width: 414px) {
   .description-pointe {
-    font-size: 16px;
+    font-size: 1.2em;
   }
 
   .background-pointe-logo {

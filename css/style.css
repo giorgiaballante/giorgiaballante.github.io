@@ -347,7 +347,7 @@ h3 {
   margin-right: 2em;
 }
 
-.project-introduction {
+.introduction-wanderlust-background {
   background-color: #0041FF;
 }
 
@@ -365,38 +365,57 @@ h3 {
   font-size: 2em;
 }
 
+.poster-images-wanderlust {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 .wand-img-poster-1 {
   width: 45%;
   margin-left: 3em;
+
+  align-self: flex-start;
 }
 
 .wand-img-businesscard-project-pg {
   width: 45%;
-  float: right;
   margin-right: 4em;
   margin-top: -20em;
+
+  align-self: flex-end;
+}
+
+.icon-set {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+
+  padding-top: 5em;
+  padding-bottom: 5em;
+  margin-right: 3em;
 }
 
 .icon-wand-title {
-  float: right;
-  clear: both;
   margin-right: 2em;
   margin-top: 40px;
+
+  align-self: flex-start;
   
   text-transform: uppercase;
 
   border-top: 1px solid #FFFFFF;
   border-bottom: 1px solid #FFFFFF;
-  padding-right: 630px;
+  padding-right: 15em;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 .wand-img-icons {
   width: 30%;
-  margin-left: 100px;
-  margin-top: 320px;
-  padding-bottom: 60px;
+  margin-left: 5em;
+
+  align-self: flex-start;
 }
 
 .wand-img-identity {
@@ -1506,22 +1525,6 @@ a.fml-menu-color {
 /* --- WANDERLUST MUSEUM */
 /* ------------------------------------------- */
 
-@media(max-width: 1375px) {
-.wand-img-businesscard-project-pg {
-  margin-top: -10em;
-}
-
-.icon-wand-title {
-  margin-right: 3em;
-  padding-right: 450px;
-}
-
-.wand-img-icons {
-  margin-top: 420px;
-  padding-bottom: 60px;
-}
-}
-
 @media(max-width: 1024px) {
  .wanderlust-logo {
     width: 95%;
@@ -1549,20 +1552,6 @@ a.fml-menu-color {
     font-size: 2em;
   }
 
-  .wand-img-businesscard-project-pg {
-    margin-top: -12em;
-  }
-
-  .icon-wand-title {
-    margin-right: 3em;
-    padding-right: 280px;
-  }
-
-  .wand-img-icons {
-    margin-top: 250px;
-    margin-left: 100px;
-  }
-
   .wand-img-pattern-white {
     margin-left: 4em;
   }
@@ -1572,19 +1561,19 @@ a.fml-menu-color {
   }
 }
 
+
 @media(max-width: 768px) {
   .wand-img-businesscard-project-pg {
     width: 40%;
   }
-
-  .wand-img-icons {
-    margin-top: 0;
-    margin-left: 250px;
-  }
-
   .wand-img-pattern-white {
     width: 85%;
   }
+
+  .icon-wand-title {
+    padding-right: 6em;
+  }
+
 }
 
 @media(max-width: 414px) {
@@ -1595,7 +1584,10 @@ a.fml-menu-color {
 
   .project-introduction {
     margin-top: -5em;
-    height: 700px;
+  }
+
+  .poster-images-wanderlust {
+    flex-direction: column;
   }
   
   .wand-img-poster-1 {
@@ -1605,19 +1597,27 @@ a.fml-menu-color {
 
   .wand-img-businesscard-project-pg {
     width: 60%;
-    margin-top: -90px;
-    margin-right: 30px;
+    margin-top: 0;
+    padding-bottom: 2em;
+    
   }
 
   .icon-wand-title {
-    padding: 10px 100px 10px 0;
-    margin-right: 190px;
     font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .icon-set {
+    flex-direction: column-reverse;
+    margin-left: 2em;
+    padding-top: 2em;
   }
 
   .wand-img-icons {
-    margin-top: -70px;
+    width: 70%;
   }
+
 
   .wand-pattern-title {
     padding: 10px 100px 10px 0;
@@ -1633,21 +1633,6 @@ a.fml-menu-color {
 }
 
 @media(max-width: 375px) {
-  .wand-img-businesscard-project-pg {
-    width: 60%;
-    margin-top: -150px;
-  }
-
-  .icon-wand-title {
-    padding: 10px 50px 10px 0;
-    margin-right: 190px;
-    font-size: 1em;
-  }
-
-  .wand-img-icons {
-    width: 40%;
-    margin-left: 200px;
-  }
 
   .wand-pattern-title {
     width: 320px;
@@ -1661,19 +1646,7 @@ a.fml-menu-color {
 }
 
 @media(max-width: 320px) {
-  .wand-img-businesscard-project-pg {
-    width: 60%;
-    margin-top: -200px;
-  }
-
-  .icon-wand-title {
-    margin-right: 150px;
-  }
-
-  .wand-img-icons {
-    margin-left: 180px;
-  }
-
+  
   .wand-pattern-title {
     width: 280px;
     font-size: 1em;

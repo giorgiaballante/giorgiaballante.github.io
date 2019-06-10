@@ -1470,12 +1470,12 @@ a.fml-menu-color {
   margin-top: -400px;
 
   position: relative;
-  animation-duration: 4000ms;
+  /* animation-duration: 4000ms;
   animation-delay: 500ms;
   animation-timing-function: linear;
   animation-name: ciaoHome;
   animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; */
 }
 
 .fml-book-img {
@@ -2063,6 +2063,10 @@ a.fml-menu-color {
     height: 400px;
   }
 
+  .background-fml-description {
+    height: 400px;
+  }
+
   .description-fml {
     font-size: 1em;
     margin-top: 50px;
@@ -2121,6 +2125,9 @@ a.fml-menu-color {
     height: 400px;
   }
   
+  .background-fml-description {
+    height: 450px;
+  }
   .description-fml {
     font-size: 1em;
     margin-top: 50px;

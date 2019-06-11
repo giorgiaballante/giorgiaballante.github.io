@@ -1356,6 +1356,68 @@ a.fade-menu-color {
 
 
 /* -------------------------------------- */
+/* --- FENDI */
+/* ------------------------------------------- */
+
+.fendi-background {
+  background-color:#F9B949;
+}
+
+.title-fendi, .subtitle-fendi {
+  color: #343A41;
+}
+
+.fendi-img-home {
+  width: 60%;
+  float: right;
+  margin-right: 4em;
+}
+
+.description-fendi {
+  color: #343A41;
+  font-size: 45px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 2em;
+  float: left;
+}
+
+.fendi-app-title {
+  width: 20%;
+  margin-left: 4em;
+  text-transform: uppercase;
+
+  float: left;
+
+  color: #FFFFFF;
+
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.fendi-img-customization-1 {
+  width: 50%;
+  margin-top: 10em;
+}
+
+.fendi-img-customization-2 {
+  width: 90%;
+}
+
+.fendi-img-customization-3 {
+  width: 50%;
+  margin-left: 30em;
+  padding-bottom: 5em;
+}
+
+.fendi-img-orders {
+  width: 100%;
+}
+
+
+/* -------------------------------------- */
 /* --- FML GALLERY */
 /* ------------------------------------------- */
 
@@ -1486,6 +1548,62 @@ a.fml-menu-color {
 /* -------------------------------------- */
 /* --- R E S P O N S I V E */
 /* ------------------------------------------- */
+
+
+/* -------------------------------------- */
+/* --- FENDI */
+/* ------------------------------------------- */
+
+@media(max-width: 1024px) {
+  .fendi-app-title {
+    width: 30%;
+  }
+}
+
+@media(max-width: 768px) {
+  .description-fendi {
+    font-size: 2em;
+  }
+
+  .title-fendi {
+    margin-top: 0;
+  }
+}
+
+@media(max-width: 414px) {
+  .description-fendi {
+    font-size: 1.3em;
+  }
+
+  .fendi-img-customization-1 {
+    margin-top: 0;
+    margin-left: 4em;
+  }
+
+  .custom2 {
+    margin-left: 10em;
+  }
+
+  .fendi-app-title {
+    margin-left: 2em;
+    width: 60%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-size: 1.2em;
+  }
+
+  .fendi-img-orders {
+    padding-bottom: 2em;
+  }
+}
+
+@media(max-width: 320px) {
+  .description-fendi {
+    font-size: 1em;
+  }
+}
+
 
 
 /* -------------------------------------- */
@@ -1657,7 +1775,7 @@ a.fml-menu-color {
 
 @media(max-width: 768px) {
   .ultralight-introduction {
-    height: 610px;
+    height: 690px;
     width: 100%;
     margin-top: -6em;
   }

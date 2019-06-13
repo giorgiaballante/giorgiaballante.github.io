@@ -618,14 +618,15 @@ a.festival-menu-color {
   z-index: -2;
 }
 
-.festival-video {
+.video-festival {
 background-color: #00FFFC;
-height: 60%;
 }
 
-.festival-video-img1 {
+.festival-30hours-video {
   width: 80%;
-  margin-left: 10em;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  padding-left: 15em;
 }
 
 .festival-video-title {

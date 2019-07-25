@@ -769,6 +769,15 @@ a.diecimari-menu-color {
   align-self: flex-end;
 }
 
+.info-contact {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+
+  border-top: 1px solid white;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
 .contact-instagram {
   margin-left: 200px;
 }

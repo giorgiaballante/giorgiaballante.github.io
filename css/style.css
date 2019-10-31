@@ -119,15 +119,15 @@ h1 {
   }
 
   50% {
-    left: 300px;
+    left: 30%;
   }
 
   75% {
-    left: 900px;
+    left: 60%;
   }
   /* the ending point of the animation as 100% or to */
   100% {
-    left: 1200px;
+    left: 0;
     top: 0px;
   }
 
@@ -429,7 +429,7 @@ a.ultra-menu-color {
 .project-title {
   text-transform: uppercase;
   margin-left: 1.5em;
-  padding-top: 50px;
+  /* padding-top: 50px; */
   font-size: 60px;
 }
 
@@ -1365,6 +1365,60 @@ a.fade-menu-color {
 .background-info-fade {
   background-color: #000000;
   height: 100%;
+}
+
+/* -------------------------------------- */
+/* --- 313 */
+/* ------------------------------------------- */
+.treunotre-body {
+  background-color: #1BCD83;
+}
+
+.treunotre-menu {
+  border-color: #FB2F28;
+}
+
+a.treunotre-menu-color, .title-313, .subtitle-313 {
+  color: #FB2F28;
+}
+
+.title-313 {
+  margin-top: 50px;
+}
+
+.treunotre-img-home {
+  width: 60%;
+  float: right;
+  margin-right: 4em;
+}
+.background-description-treunotre {
+  background-color: #FB2F28;
+  float: left;
+}
+
+.description-313 {
+  color: #FFADEC;
+  font-size: 45px;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 2em;
+}
+
+.collage-313 {
+  background-color: black;
+  width: 100%;
+  border-top: 1em solid black;
+  border-bottom: 1em solid black;
+}
+
+.website-313-images {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.men-page, .woman-page {
+  width: 80%;
 }
 
 

@@ -1411,7 +1411,7 @@ a.treunotre-menu-color, .title-313, .subtitle-313 {
   border-bottom: 1em solid black;
 }
 
-.website-313-images {
+.website-313-images, .website-block2-313 {
   display: grid;
   grid-template-columns: 50% 50%;
   align-items: center;
@@ -1420,6 +1420,14 @@ a.treunotre-menu-color, .title-313, .subtitle-313 {
 .men-page, .woman-page {
   width: 80%;
 }
+
+.magazine-313 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+
 
 
 

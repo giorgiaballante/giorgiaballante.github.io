@@ -1411,7 +1411,7 @@ a.treunotre-menu-color, .title-313, .subtitle-313 {
   border-bottom: 1em solid black;
 }
 
-.website-313-images, .website-block2-313 {
+.website-313-images {
   display: grid;
   grid-template-columns: 50% 50%;
   align-items: center;
@@ -1421,11 +1421,29 @@ a.treunotre-menu-color, .title-313, .subtitle-313 {
   width: 80%;
 }
 
-.magazine-313 {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
+.bg-313-home {
+  background-color: #FB2F28;
+  padding: 10%;
 }
+
+.website-block2-313 {
+  width: 70%;
+}
+
+.magazine-313-block1, .magazine-313-block2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.magazine-313-1, .magazine-313-2, .magazine-313-3, .magazine-313-4 {
+  width: 50%;
+}
+
+.advertising-313-img {
+  width: 100%;
+}
+
 
 
 

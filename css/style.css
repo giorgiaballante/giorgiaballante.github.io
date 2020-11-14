@@ -103,16 +103,16 @@ h1 {
   margin-top: 150px;
   margin-bottom: 0;
 
-  position: relative;
+  /* position: relative;
   animation-duration: 4000ms;
   animation-delay: 500ms;
   animation-timing-function: linear;
   animation-name: ciaoHome;
   animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; */
 }
 
-@keyframes ciaoHome {
+/* @keyframes ciaoHome {
 
   0% {
     left: 0;
@@ -126,12 +126,12 @@ h1 {
     left: 60%;
   }
   /* the ending point of the animation as 100% or to */
-  100% {
+  /* 100% {
     left: 0;
     top: 0px;
-  }
+  } */ */
 
-}
+/* } */
 
 .personal-info-text {
   color: #FFFFFF;

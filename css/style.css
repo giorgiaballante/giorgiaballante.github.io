@@ -1853,6 +1853,10 @@ a.fml-menu-color {
 
 @media(max-width: 375px) {
 
+  .wanderlust-logo {
+    width: 90%;
+  }
+
   .wand-pattern-title {
     width: 320px;
     font-size: 1em;
@@ -2888,8 +2892,20 @@ ul {
 
 @media(max-width: 414px) {
 
+  .index-ciao {
+    margin-top: 0;
+    font-size: 90px;
+  }
+
+
   .menu a {
     font-size: 12px;
+  }
+
+  .info-work {
+    display: grid;
+    grid-template-rows: 60px;
+    grid-template-columns: 1fr;
   }
 
   .info-ultralight-1 {
@@ -2905,12 +2921,12 @@ ul {
   .project-title {
     font-size: 2em;
     width: 80%;
-    margin-left: 2em;
+    margin-left: 1em;
   }
 
-  .title-diecimari {
+  /* .title-diecimari {
     margin-left: 2em;
-  }
+  } */
 
   h1.title-thefork {
     margin-top: 0;
@@ -2928,7 +2944,7 @@ ul {
   .project-subtitle {
     font-size: 1em;
     width: 80%;
-    margin-left: 4em;
+    margin-left: 2em;
     margin-top: 5px;
   }
 
@@ -2945,6 +2961,10 @@ ul {
   }
 
   .info-title-ultralight {
+    margin-left: 0;
+  }
+
+  .work-menu-mobile {
     margin-left: 0;
   }
 

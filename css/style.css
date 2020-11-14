@@ -2950,7 +2950,7 @@ ul {
 
   .arrow-white-works {
     margin-left: 0;
-    margin-top: -100px;
+    /* margin-top: -100px; */
     padding-bottom: 20px;
   }
 
@@ -2964,6 +2964,12 @@ ul {
 
   .menu {
     margin: 2em 2em;
+  }
+
+  .info-work {
+    display: grid;
+    grid-template-rows: 60px;
+    grid-template-columns: 1fr;
   }
 
   .info-ultralight-1 {
@@ -2987,16 +2993,11 @@ ul {
 
   .arrow-white-works {
     margin-left: 0;
-    margin-top: -100px;
     padding-bottom: 20px;
   }
 
   .pills-li {
     margin-left: 0;
-  }
-
-  .info-title-ultralight {
-    margin-left: 20px;
   }
 }
 

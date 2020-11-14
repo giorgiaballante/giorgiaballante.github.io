@@ -3032,6 +3032,10 @@ ul {
     grid-template-columns: 1fr;
   }
 
+  .info-title-ultralight {
+    margin-left: 20px;
+  }
+
   .work-menu-mobile {
     margin-left: 0;
   }
@@ -3039,10 +3043,6 @@ ul {
   .info-ultralight-1 {
     flex-direction: column;
     font-size: 0.6em;
-  }
-
-  .info-title-ultralight {
-    margin-left: 20px;
   }
 
   .info-ultralight-sx-1 {

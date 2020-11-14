@@ -2694,10 +2694,7 @@ a.fml-menu-color {
 
   .thefork-map-img, .thefork-home-img {
     width: 50%;
-  }
-
-  .thefork-map-img {
-    align-self: flex-start
+    align-self: flex-start;
   }
 
   .thefork-profile-page {

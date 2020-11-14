@@ -525,7 +525,7 @@ a.ultra-menu-color {
   background-color: black;
   margin-top: -30px;
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 .info-ultralight-1 {
@@ -592,6 +592,11 @@ a.festival-menu-color {
 
 .festival-title, .festival-subtitle, .description-festival {
   color: #000000;
+  margin-top: 0;
+}
+
+.festival-title {
+  padding-top: 1em;
 }
 
 .description-festival {
@@ -644,7 +649,7 @@ background-color: #00FFFC;
 
 .festival-buy {
   background-color: #4FFF00;
-  margin-top: 5em;
+  margin-top: 0;
 }
 .buy-poster, .buy-book, .program-30-1, .program-30-2 {
   width: 80%;
@@ -943,8 +948,12 @@ a.pointe-menu-color {
   background-color: #E83F4E;
 }
 
+
+
 .pills-menu {
   color: #000000;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 a.pills-menu-color {
@@ -958,19 +967,24 @@ a.pills-menu-color {
 
 .pills-introduction {
   background-color: #000000;
-  height: 100vh;
+}
+
+.title-pills {
+  padding-top: 1em;
 }
 
 .subtitle-pills {
   color: #FFFFFF;
+  margin-bottom: 0;
 }
 
 .description-pills {
   color: #E83F4E;
+  background-color: #000000;
   font-size: 45px;
-  margin-left: 2em;
-  margin-right: 2em;
+  padding: 2em;
   float: left;
+  margin: 0;
 }
 
 .pills-img-1 {
@@ -979,6 +993,7 @@ a.pills-menu-color {
   align-content: center;
   float: left;
   margin-left: 4em;
+  margin-top: 100px;
 }
 
 .pills-indice-img {
@@ -1298,18 +1313,23 @@ a.fade-menu-color {
 .fade-introduction {
   margin-top: -90px;
   background-color: #000000;
-  height: 130vh;
+}
+
+.title-fade {
+  padding-top: 1em;
 }
 
 .subtitle-fade {
   color: #FFFFFF;
+  margin-bottom: 0;
 }
 
 .description-fade {
   color: #FFFFFF;
+  background-color: #000000;
   font-size: 45px;
-  margin-left: 2em;
-  margin-right: 2em;
+  padding: 2em;
+  margin: 0;
   float: left;
 }
 
@@ -1322,6 +1342,7 @@ a.fade-menu-color {
 .fade-detail-img-1 {
   width: 80%;
   margin-left: 10em;
+  padding-top: 100px;
 }
 
 .video-fade {

@@ -2839,7 +2839,7 @@ a.fml-menu-color {
 /* ------------------------------------------- */
 @media(max-width: 414px) {
   .description-313 {
-    font-size: 25px;
+    font-size: 1.3em;
     margin-left: 1em;
     margin-right: 1em;
   }

@@ -91,6 +91,7 @@ header {
     display: block;
     border: none;
     position: fixed;
+    margin-left: 1em;
   }
 
   .menu-mobile-text {

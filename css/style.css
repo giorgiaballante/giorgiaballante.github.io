@@ -2920,15 +2920,26 @@ a.fml-menu-color {
 }
 
 @media(max-width: 414px) {
+  .festival-logo {
+    width: 80%;
+    margin-left: 1.5em;
+    margin-top: 6em;
+  }
+
   .festival-img-1 {
     width: 80%;
     margin-left: 2em;
   }
 
   .description-festival {
-    font-size: 1.5em;
-    margin-left: 1em;
-    margin-right: 1em;
+    font-size: 1.3em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+
+  .festival-collage-img1 {
+    width: 80%;
+    margin-left: .3em;
   }
 
   h1.project-title.festival-title {
@@ -2945,6 +2956,11 @@ a.fml-menu-color {
 
   .festival-collage-img2, .festival-collage-img3 {
     margin-top: 0;
+    margin-right: 1em;
+  }
+
+  .buy-book, .program-30-2 {
+    margin-left: .3em;
   }
 
   .festival-video-img1 {

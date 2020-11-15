@@ -1080,6 +1080,7 @@ a.thefork-menu-color {
   display: flex;
   justify-content: flex-end;
   align-content:flex-end;
+  margin-right: 2.5em;
 }
 
 .thefork-restaurant-1-img {

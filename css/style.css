@@ -1745,22 +1745,33 @@ a.fml-menu-color {
 }
 
 @media(max-width: 414px) {
+  .fendi-introduction {
+    padding-top: 100px;
+  }
+
   .description-fendi {
     font-size: 1.3em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
   }
 
   .fendi-img-customization-1 {
-    margin-top: 0;
-    margin-left: 4em;
+    margin-top: 20px;
+    margin-left: 1.5em;
+    width: 85%;
   }
 
-  .custom2 {
-    margin-left: 10em;
+  .fendi-img-customization-2 {
+    width: 97%;
+  }
+
+  .fendi-img-orders {
+    width: 95%;
   }
 
   .fendi-app-title {
-    margin-left: 2em;
-    width: 60%;
+    margin-left: 1.5em;
+    width: 85%;
     padding-top: 10px;
     padding-bottom: 10px;
 
@@ -2394,16 +2405,16 @@ a.fml-menu-color {
   }
 
   .fml-introduction {
-    height: 400px;
+    height: 500px;
+    padding-top: 100px;
+  }
+
+  .fml-home-img {
+    width: 100%;
   }
 
   .background-fml-description {
-    height: 400px;
-  }
-
-  .description-fml {
-    font-size: 1em;
-    margin-top: 50px;
+    height: 350px;
   }
 
   .fml-img-1 {
@@ -2425,8 +2436,14 @@ a.fml-menu-color {
     height: 320px;
   }
 
-  .fml-video  {
+  .fml-text-img {
     width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .fml-video  {
+    width: 98%;
     margin-left: 5px;
   }
 
@@ -2599,6 +2616,13 @@ a.fml-menu-color {
 }
 
 @media(max-width: 414px) {
+
+  .description-fml {
+    font-size: 1.3em;
+    margin-top: 50px;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+  }
 
   .background-fadecollective-color {
     height: 350px;
@@ -3493,6 +3517,12 @@ h3.work-fork-home-color, h3.work-wanderlust-home-color {
 
   .description-pointe {
     font-size: 1.3em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+
+  .pointe-img-1 {
+    width: 85%;
   }
 
   .background-pointe-logo {
@@ -3502,7 +3532,11 @@ h3.work-fork-home-color, h3.work-wanderlust-home-color {
 
   .project-solution-text {
     font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 1.5em;
   }
+
   .pointe-exercise-img-1 {
     margin-left: 50px;
     margin-top: -100px;
@@ -3522,7 +3556,7 @@ h3.work-fork-home-color, h3.work-wanderlust-home-color {
   }
 
   .pointe-project-title {
-    margin-left: 2em;
+    margin-left: 1.5em;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 1.2em;
@@ -3531,7 +3565,7 @@ h3.work-fork-home-color, h3.work-wanderlust-home-color {
 
   .proiezione-1-pointe {
     width: 70%;
-    margin-right: 1em;
+    margin-right: 1.5em;
   }
 
   .proiezione-2-pointe {
@@ -3541,7 +3575,7 @@ h3.work-fork-home-color, h3.work-wanderlust-home-color {
   }
 
   .pointe-icon-title {
-    margin-left: 2em;
+    margin-left: 1.5em;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 1.2em;
@@ -3550,6 +3584,6 @@ h3.work-fork-home-color, h3.work-wanderlust-home-color {
 
   .icon-set-pointe-img {
     width: 70%;
-    margin-left: 1.5em;
+    margin-left: 1em;
   }
 }

@@ -2994,8 +2994,8 @@ ul {
     padding-bottom: 0;
     margin-top: 0;
     padding-top: 20px;
-    margin-left: 1em;
-    margin-right: 1em;
+    /* margin-left: 1em;
+    margin-right: 1em; */
   }
 
   .menu a {
@@ -3083,6 +3083,10 @@ ul {
 
   .info-title-ultralight {
     margin-left: 0;
+  }
+
+  .info-ultralight-1 {
+    margin-left: 3em;
   }
 
   .work-menu-mobile {
@@ -3286,8 +3290,9 @@ h3.work-fork-home-color, h3.work-wanderlust-home-color {
 .info-ultralight-1 {
   display: flex;
   border-bottom: 1px solid #ffffff;
-  margin-left: 1em;
-  margin-right: 1em;
+  /* padding-left: 1em; */
+  padding-right: 3em;
+  margin-left: 3.5em;
 }
 
 .skill-text {

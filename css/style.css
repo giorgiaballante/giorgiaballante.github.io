@@ -49,6 +49,14 @@ a {
   display: grid;
   grid-template-columns: 3fr 1fr 1fr 1fr;
   align-content: center;
+  /* justify-items: end; */
+
+  /* position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  width: 100%;  */
 }
 
 
@@ -1793,6 +1801,11 @@ a.fml-menu-color {
     padding-right: 6em;
   }
 
+  .wand-pattern-title {
+    margin-left: 2.8em;
+    width: 85%;
+  }
+
 }
 
 @media(max-width: 414px) {
@@ -2468,7 +2481,7 @@ a.fml-menu-color {
   .project-title {
     font-size: 4em;
     line-height: 1.3em;
-    margin-left: 1.5em;
+    margin-left: 1em;
   }
 
   .title-diecimari {
@@ -2900,7 +2913,7 @@ a.fml-menu-color {
 .info-title-ultralight {
   text-transform: uppercase;
   color: #FFFFFF;
-  margin-left: 20px;
+  margin-left: 0px;
   width: 190px;
 }
 
@@ -2912,6 +2925,12 @@ li {
 ul {
   list-style-type: none;
   padding: 0;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.info-work {
+  grid-template-columns: 1fr;
 }
 
 .info-ultralight-sx-1 {

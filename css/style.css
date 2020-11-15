@@ -95,7 +95,7 @@ header {
   }
 
   .menu-mobile-text {
-    margin-left: 0;
+    margin-left: 1em;
   }
 
 }
@@ -2988,6 +2988,8 @@ ul {
     padding-bottom: 0;
     margin-top: 0;
     padding-top: 20px;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 
   .menu a {
@@ -3031,6 +3033,10 @@ ul {
     margin-top: 2em;
     margin-left: 0;
     border: none;
+  }
+
+  .menu-mobile-cta {
+    margin-left: 0;
   }
 
   /* .title-diecimari {
@@ -3261,7 +3267,7 @@ h3.work-fork-home-color, h3.work-wanderlust-home-color {
 }
 
 .skills-list {
-  margin-right: 1em;
+  margin-right: 2em;
 }
 
 .info-ultralight-1 {

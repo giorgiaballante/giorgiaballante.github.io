@@ -40,6 +40,10 @@ a {
   text-decoration: none;
 }
 
+header {
+  display: block;
+}
+
 .menu {
   margin: 2em 4em;
   height: 70px;
@@ -59,7 +63,6 @@ a {
   width: 100%;  */
 }
 
-
 .menu a {
   padding-right: 30px;
   font-size: 15px;
@@ -68,6 +71,30 @@ a {
   color: #FFFFFF;
 
   align-items: flex-end;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+@media(max-width: 414px) {
+
+  header {
+    height: 100px;
+  }
+
+  .menu-desktop {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: block;
+    border: none;
+    position: fixed;
+    margin-right: 0em;
+    margin-top: 2em;
+    text-align: right;
+  }
 }
 
 .contact-list a {
@@ -1080,7 +1107,7 @@ a.thefork-menu-color {
   display: flex;
   justify-content: flex-end;
   align-content:flex-end;
-  margin-right: 2.5em;
+      margin-right: 2.5em;
 }
 
 .thefork-restaurant-1-img {

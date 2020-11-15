@@ -1997,7 +1997,6 @@ a.fml-menu-color {
 }
 
 @media(max-width: 414px) {
-
   .ultralight-title {
     font-size: 2em;
     margin-left: 2em;
@@ -2984,7 +2983,6 @@ ul {
 }
 
 @media(max-width: 414px) {
-
   .index-ciao {
     margin-top: 0;
     font-size: 90px;
@@ -3054,7 +3052,7 @@ ul {
   }
 
   .ultralight-title {
-    margin-left: 3em;
+    margin-left: 2em;
   }
 
   h1.project-title.title-diecimari {

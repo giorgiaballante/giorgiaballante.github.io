@@ -91,10 +91,12 @@ header {
     display: block;
     border: none;
     position: fixed;
-    margin-right: 0em;
-    margin-top: 2em;
-    text-align: right;
   }
+
+  .menu-mobile-text {
+    margin-left: 1em;
+  }
+
 }
 
 .contact-list a {
@@ -3011,6 +3013,20 @@ ul {
     font-size: 2em;
     width: 80%;
     margin-left: 1em;
+  }
+
+  .link-menu-mobile {
+    margin-top: 200px;
+    margin-left: -1em;
+  }
+
+  .menu-mobile-text {
+    font-size: 45px;
+  }
+
+  .menu-mobile {
+    margin-top: -80px;
+    margin-left: 1em;s
   }
 
   /* .title-diecimari {

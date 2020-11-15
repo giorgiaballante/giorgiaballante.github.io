@@ -2998,6 +2998,8 @@ ul {
     display: grid;
     grid-template-rows: 60px;
     grid-template-columns: 1fr;
+    margin-left: 2em;
+    margin-right: 2em;
   }
 
   .info-ultralight-1 {
@@ -3256,6 +3258,17 @@ h3 {
 h3.work-fork-home-color, h3.work-wanderlust-home-color {
   padding-right: 0;
   width: 80%;
+}
+
+.skills-list {
+  margin-right: 1em;
+}
+
+.info-ultralight-1 {
+  display: flex;
+  border-bottom: 1px solid #ffffff;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .skill-text {

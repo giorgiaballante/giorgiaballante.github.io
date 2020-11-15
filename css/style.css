@@ -3257,6 +3257,15 @@ h3.work-fork-home-color, h3.work-wanderlust-home-color {
   padding-top: 0;
   padding-left: 4em;
 }
+
+.home-section {
+  margin-left: 2em;
+}
+
+.personal-info {
+  margin-left: 2em;
+}
+
 }
 
 @media(max-width: 375px) {

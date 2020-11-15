@@ -92,6 +92,7 @@ header {
     border: none;
     position: fixed;
     margin-left: 2em;
+    z-index: 100;
   }
 
   .menu-mobile-text {
@@ -457,7 +458,7 @@ h3 {
 
 a.ultra-menu-color {
   color: #000000;
-  background-color: white;
+  /* background-color: white; */
 }
 
 .ultralight-title, .ultralight-subtitle {
@@ -2002,6 +2003,10 @@ a.fml-menu-color {
     margin-left: 2em;
   }
 
+  .ultra-menu-color {
+    color: #000000;
+  }
+
   .ultralight-subtitle {
     font-size: 1.5em;
     margin-left: 2.8em;
@@ -2730,6 +2735,10 @@ a.fml-menu-color {
     height: 600px;
   }
 
+  .thefork-introduction {
+    padding-top: 100px;
+  }
+
   .img-the-fork-introduction {
     margin-left: -200px;
   }
@@ -2745,24 +2754,32 @@ a.fml-menu-color {
   .description-thefork {
     font-size: 1.3em;
     margin-top: 100px;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding-top: 50px;
   }
 
   .thefork-app-title {
-    width: 80%;
-    margin-left: 2em;
+    width: 85%;
+    margin-left: 1.5em;
+    margin-top: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 1.2em;
   }
 
+  .old-app-img {
+    padding-bottom: 30px;
+    padding-top: 20px;
+  }
+
   .thefork-project-title {
-    width: 80%;
-    margin-left: 2em;
+    width: 85%;
+    margin-left: 1.5em;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 1.2em;
-
-    margin-top: 4em;
+    margin-top: 50px;
   }
 
   .thefork-profile-img {
@@ -2771,7 +2788,7 @@ a.fml-menu-color {
   }
 
   .thefork-profilepage-title {
-    width: 80%;
+    width: 85%;
     margin-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -2784,8 +2801,8 @@ a.fml-menu-color {
   }
 
   .thefork-map-title {
-    width: 80%;
-    margin-left: 2em;
+    width: 85%;
+    margin-left: 1.5em;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 10px;
@@ -2796,6 +2813,11 @@ a.fml-menu-color {
   .thefork-map-img, .thefork-home-img {
     width: 50%;
     align-self: flex-start;
+    margin-left: 10px;
+  }
+
+  .thefork-home-img {
+    padding-bottom: 20px;
   }
 
   .thefork-profile-page {
@@ -2804,8 +2826,8 @@ a.fml-menu-color {
   }
 
   .thefork-icon-title {
-    width: 80%;
-    margin-left: 2em;
+    width: 85%;
+    margin-left: 1.5em;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
@@ -2814,14 +2836,14 @@ a.fml-menu-color {
   }
 
   .thefork-iconset-img {
-    margin-left: -300px;
+    margin-left: -330px;
     margin-top: 100px;
     width: 80%;
   }
 
   .thefork-card-title {
-    width: 80%;
-    margin-left: 2em;
+    width: 85%;
+    margin-left: 1.6em;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
@@ -2837,7 +2859,7 @@ a.fml-menu-color {
   .thefork-card-img {
     margin-top: 0px;
     width: 70%;
-    margin-left: 0;
+    margin-left: .3em;
   }
 
   .thefork-food-photos {

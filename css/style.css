@@ -2601,7 +2601,8 @@ a.fml-menu-color {
 @media(max-width: 414px) {
 
   .background-fadecollective-color {
-    height: 300px;
+    height: 350px;
+    padding-top: 100px;
   }
 
   .fade-home-img {
@@ -2615,14 +2616,21 @@ a.fml-menu-color {
   .description-fade {
     font-size: 1.3em;
     margin-top: 30px;
-    margin-left: 2em;
-    padding-right: 2em;
+    margin-left: 1.5em;
+    padding-right: 1.5em;
     padding-left: 0;
+    padding-bottom: 0;
+  }
+
+  .fade-introduction {
+    height: 76vh;
   }
 
   .fade-detail-img-1 {
     margin-top: 0;
     margin-left: 2em;
+    width: 85%;
+    padding-top: 0;
   }
 
   .video-fade {

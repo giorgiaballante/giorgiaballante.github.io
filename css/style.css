@@ -3225,12 +3225,19 @@ ul {
   .contact-coffee {
     font-size: 50px;
     width: 80%;
+    margin-left: .5em;
   }
 
   .contact-drink {
     font-size: 23px;
     width: 50%;
   }
+
+  .info-contact {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
 }
 
 

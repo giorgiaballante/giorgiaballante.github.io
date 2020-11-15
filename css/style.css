@@ -2974,10 +2974,20 @@ a.fml-menu-color {
 @media(max-width: 414px) {
   .description-313 {
     font-size: 1.3em;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
     margin-top: 1em;
   }
+
+  .title-313 {
+    margin-top: 0;
+    padding-top: 100px;
+  }
+
+  .treunotre-img-home {
+    width: 100%;
+    margin-right: 0em;
+}
 
   .collage-313 {
     border-top: .2em solid black;

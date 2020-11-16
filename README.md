@@ -1,8 +1,8 @@
-# My website
+# Giorgia Ballante Website
 
 https://giorgiaballante.github.io
 
-Here I'm going to publish the code for all my personal e school projects.
+Have a look at my projects.
 
 ## Project Checklist
 
